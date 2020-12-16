@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://www.imf.org/en/Publications/WEO/weo-database/2020/October/download-entire-database -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths webkit chrome linux"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/c5e55375c7"></script><script src="./Download entire World Economic Outlook database, October 2020_files/nr-1184.min.js"></script><script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/1.txt"></script><script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/1(1).txt"></script><script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/moatframe.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c5e55375c7","applicationID":"980375934,980386434","transactionName":"bgFWMkFQD0FWVkMLWFdLeTBwHjJbQ1BUDUVcJ1sIR0MOXltQRU1+VwBRHg==","queueTime":15,"applicationTime":124,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"c5e55375c7",applicationID:"980375934"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+
+<link href="./Download entire World Economic Outlook database, October 2020_files/fullwidth-css" rel="stylesheet">
+    
+    <link href="https://www.imf.org/external/07/images/imf_seal.ico" type="image/ico" rel="Shortcut Icon">
+    <!-- Begin 2017 Omniture scripts -->
+<script src="./Download entire World Economic Outlook database, October 2020_files/satelliteLib-834e3fe4ac4ea890c36d061e19fc6cfc1b5dc5d0.js"></script>    <!-- End 2017 Omniture scripts -->
+
+
+    
+    <script src="./Download entire World Economic Outlook database, October 2020_files/modernizr-js"></script>
+
+<meta name="RequestID" content="{cb38384b-7742-46df-ae29-f742f243a26d}">
+<meta name="Site" content="imf">
+
+<meta http-equiv="Cache-control" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="creator" content="International Monetary Fund">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta name="ItemID" content="{F575C12E-D0F3-4D2D-ADB0-063260345099}">
+<meta name="TemplateID" content="{971770A8-F157-4D68-A878-6DAC18AE5FFD}">
+<meta name="ISOCODE" content="">
+<meta name="Country" content="">
+<meta name="ISORegion" content="">
+<meta name="Region" content="">
+<meta name="Date" content="2020-10-05">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="Language" content="ENG">
+<meta name="site" content="imf">
+<meta name="Speaker" content="">
+<meta name="Subject" content="">
+<meta name="Topic" content="">
+<meta name="GlossaryTerm" content="">
+<meta name="Type" content="WEO DB Page">
+<meta name="COMCampaigns" content="">
+<link rel="canonical" href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October/download-entire-database">
+<title>Download entire World Economic Outlook database, October 2020</title>
+<meta property="og:title" content="Download entire World Economic Outlook database, October 2020">
+<meta property="twitter:title" content="Download entire World Economic Outlook database, October 2020">
+<meta property="og:description" content="">
+<meta property="twitter:description" content="">
+<meta property="og:url" content="https://www.imf.org/en/Publications/WEO/weo-database/2020/October/download-entire-database">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="IMF">
+<meta property="twitter:site" content="IMF">
+<meta property="twitter:image" content="https://www.imf.org/-/media/Images/IMF/News/twitter-seal.ashx">
+<meta property="og:image" content="https://www.imf.org/-/media/Images/IMF/News/twitter-seal.ashx">
+<meta property="og:video" content="">
+<meta property="og:audio" content="">
+<meta property="twitter:card" content="summary"><script src="./Download entire World Economic Outlook database, October 2020_files/gateway.min.js" type="text/javascript" async="true" data-vendor="fs" data-role="gateway"></script><style type="text/css">.at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}#at16lb{display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1001;background-color:#000;opacity:.001}#at_complete,#at_error,#at_share,#at_success{position:static!important}.at15dn{display:none}#at15s,#at16p,#at16p form input,#at16p label,#at16p textarea,#at_share .at_item{font-family:arial,helvetica,tahoma,verdana,sans-serif!important;font-size:9pt!important;outline-style:none;outline-width:0;line-height:1em}* html #at15s.mmborder{position:absolute!important}#at15s.mmborder{position:fixed!important;width:250px!important}#at15s{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);float:none;line-height:1em;margin:0;overflow:visible;padding:5px;text-align:left;position:absolute}#at15s a,#at15s span{outline:0;direction:ltr;text-transform:none}#at15s .at-label{margin-left:5px}#at15s .at-icon-wrapper{width:1pc;height:1pc;vertical-align:middle}#at15s .at-icon{width:1pc;height:1pc}.at4-icon{display:inline-block;background-repeat:no-repeat;background-position:top left;margin:0;overflow:hidden;cursor:pointer}.addthis_16x16_style .at4-icon,.addthis_default_style .at4-icon,.at4-icon,.at-16x16{width:1pc;height:1pc;line-height:1pc;background-size:1pc!important}.addthis_32x32_style .at4-icon,.at-32x32{width:2pc;height:2pc;line-height:2pc;background-size:2pc!important}.addthis_24x24_style .at4-icon,.at-24x24{width:24px;height:24px;line-height:24px;background-size:24px!important}.addthis_20x20_style .at4-icon,.at-20x20{width:20px;height:20px;line-height:20px;background-size:20px!important}.at4-icon.circular,.circular .at4-icon,.circular.aticon{border-radius:50%}.at4-icon.rounded,.rounded .at4-icon{border-radius:4px}.at4-icon-left{float:left}#at15s .at4-icon{text-indent:20px;padding:0;overflow:visible;white-space:nowrap;background-size:1pc;width:1pc;height:1pc;background-position:top left;display:inline-block;line-height:1pc}.addthis_vertical_style .at4-icon,.at4-follow-container .at4-icon{margin-right:5px}html>body #at15s{width:250px!important}#at15s.atm{background:none!important;padding:0!important;width:10pc!important}#at15s_inner{background:#fff;border:1px solid #fff;margin:0}#at15s_head{position:relative;background:#f2f2f2;padding:4px;cursor:default;border-bottom:1px solid #e5e5e5}.at15s_head_success{background:#cafd99!important;border-bottom:1px solid #a9d582!important}.at15s_head_success a,.at15s_head_success span{color:#000!important;text-decoration:none}#at15s_brand,#at15sptx,#at16_brand{position:absolute}#at15s_brand{top:4px;right:4px}.at15s_brandx{right:20px!important}a#at15sptx{top:4px;right:4px;text-decoration:none;color:#4c4c4c;font-weight:700}#at15sptx:hover{text-decoration:underline}#at16_brand{top:5px;right:30px;cursor:default}#at_hover{padding:4px}#at_hover .at_item,#at_share .at_item{background:#fff!important;float:left!important;color:#4c4c4c!important}#at_share .at_item .at-icon-wrapper{margin-right:5px}#at_hover .at_bold{font-weight:700;color:#000!important}#at_hover .at_item{width:7pc!important;padding:2px 3px!important;margin:1px;text-decoration:none!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover{margin:0!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover,#at_share .at_item.athov,#at_share .at_item:hover{background:#f2f2f2!important;border:1px solid #e5e5e5;color:#000!important;text-decoration:none}.ipad #at_hover .at_item:focus{background:#fff!important;border:1px solid #fff}.at15t{display:block!important;height:1pc!important;line-height:1pc!important;padding-left:20px!important;background-position:0 0;text-align:left}.addthis_button,.at15t{cursor:pointer}.addthis_toolbox a.at300b,.addthis_toolbox a.at300m{width:auto}.addthis_toolbox a{margin-bottom:5px;line-height:initial}.addthis_toolbox.addthis_vertical_style{width:200px}.addthis_button_facebook_like .fb_iframe_widget{line-height:100%}.addthis_button_facebook_like iframe.fb_iframe_widget_lift{max-width:none}.addthis_toolbox a.addthis_button_counter,.addthis_toolbox a.addthis_button_facebook_like,.addthis_toolbox a.addthis_button_facebook_send,.addthis_toolbox a.addthis_button_facebook_share,.addthis_toolbox a.addthis_button_foursquare,.addthis_toolbox a.addthis_button_linkedin_counter,.addthis_toolbox a.addthis_button_pinterest_pinit,.addthis_toolbox a.addthis_button_tweet{display:inline-block}.addthis_toolbox span.addthis_follow_label{display:none}.addthis_toolbox.addthis_vertical_style span.addthis_follow_label{display:block;white-space:nowrap}.addthis_toolbox.addthis_vertical_style a{display:block}.addthis_toolbox.addthis_vertical_style.addthis_32x32_style a{line-height:2pc;height:2pc}.addthis_toolbox.addthis_vertical_style .at300bs{margin-right:4px;float:left}.addthis_toolbox.addthis_20x20_style span{line-height:20px}.addthis_toolbox.addthis_32x32_style span{line-height:2pc}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact,.addthis_toolbox.addthis_pill_combo_style a{float:left}.addthis_toolbox.addthis_pill_combo_style a.addthis_button_tweet{margin-top:-2px}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact{margin-right:4px}.addthis_default_style .addthis_separator{margin:0 5px;display:inline}div.atclear{clear:both}.addthis_default_style .addthis_separator,.addthis_default_style .at4-icon,.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300bs,.addthis_default_style .at300m{float:left}.at300b img,.at300bo img{border:0}a.at300b .at4-icon,a.at300m .at4-icon{display:block}.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300m{padding:0 2px}.at300b,.at300bo,.at300bs,.at300m{cursor:pointer}.addthis_button_facebook_like.at300b:hover,.addthis_button_facebook_like.at300bs:hover,.addthis_button_facebook_send.at300b:hover,.addthis_button_facebook_send.at300bs:hover{opacity:1}.addthis_20x20_style .at15t,.addthis_20x20_style .at300bs{overflow:hidden;display:block;height:20px!important;width:20px!important;line-height:20px!important}.addthis_32x32_style .at15t,.addthis_32x32_style .at300bs{overflow:hidden;display:block;height:2pc!important;width:2pc!important;line-height:2pc!important}.at300bs{overflow:hidden;display:block;background-position:0 0;height:1pc;width:1pc;line-height:1pc!important}.addthis_default_style .at15t_compact,.addthis_default_style .at15t_expanded{margin-right:4px}#at_share .at_item{width:123px!important;padding:4px;margin-right:2px;border:1px solid #fff}#at16p{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);z-index:10000001;position:absolute;top:50%;left:50%;width:300px;padding:10px;margin:0 auto;margin-top:-185px;margin-left:-155px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#5e5e5e}#at_share{margin:0;padding:0}#at16pt{position:relative;background:#f2f2f2;height:13px;padding:5px 10px}#at16pt a,#at16pt h4{font-weight:700}#at16pt h4{display:inline;margin:0;padding:0;font-size:9pt;color:#4c4c4c;cursor:default}#at16pt a{position:absolute;top:5px;right:10px;color:#4c4c4c;text-decoration:none;padding:2px}#at15sptx:focus,#at16pt a:focus{outline:thin dotted}#at15s #at16pf a{top:1px}#_atssh{width:1px!important;height:1px!important;border:0!important}.atm{width:10pc!important;padding:0;margin:0;line-height:9pt;letter-spacing:normal;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#444;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);padding:4px}.atm-f{text-align:right;border-top:1px solid #ddd;padding:5px 8px}.atm-i{background:#fff;border:1px solid #d5d6d6;padding:0;margin:0;box-shadow:1px 1px 5px rgba(0,0,0,.15)}.atm-s{margin:0!important;padding:0!important}.atm-s a:focus{border:transparent;outline:0;transition:none}#at_hover.atm-s a,.atm-s a{display:block;text-decoration:none;padding:4px 10px;color:#235dab!important;font-weight:400;font-style:normal;transition:none}#at_hover.atm-s .at_bold{color:#235dab!important}#at_hover.atm-s a:hover,.atm-s a:hover{background:#2095f0;text-decoration:none;color:#fff!important}#at_hover.atm-s .at_bold{font-weight:700}#at_hover.atm-s a:hover .at_bold{color:#fff!important}.atm-s a .at-label{vertical-align:middle;margin-left:5px;direction:ltr}.at_PinItButton{display:block;width:40px;height:20px;padding:0;margin:0;background-image:url(//s7.addthis.com/static/t00/pinit00.png);background-repeat:no-repeat}.at_PinItButton:hover{background-position:0 -20px}.addthis_toolbox .addthis_button_pinterest_pinit{position:relative}.at-share-tbx-element .fb_iframe_widget span{vertical-align:baseline!important}#at16pf{height:auto;text-align:right;padding:4px 8px}.at-privacy-info{position:absolute;left:7px;bottom:7px;cursor:pointer;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:10px;line-height:9pt;letter-spacing:.2px;color:#666}.at-privacy-info:hover{color:#000}.body .wsb-social-share .wsb-social-share-button-vert{padding-top:0;padding-bottom:0}.body .wsb-social-share.addthis_counter_style .addthis_button_tweet.wsb-social-share-button{padding-top:40px}.body .wsb-social-share.addthis_counter_style .addthis_button_facebook_like.wsb-social-share-button{padding-top:21px}@media print{#at4-follow,#at4-share,#at4-thankyou,#at4-whatsnext,#at4m-mobile,#at15s,.at4,.at4-recommended{display:none!important}}@media screen and (max-width:400px){.at4win{width:100%}}@media screen and (max-height:700px) and (max-width:400px){.at4-thankyou-inner .at4-recommended-container{height:122px;overflow:hidden}.at4-thankyou-inner .at4-recommended .at4-recommended-item:first-child{border-bottom:1px solid #c5c5c5}}</style><style type="text/css">.at-branding-logo{font-family:helvetica,arial,sans-serif;text-decoration:none;font-size:10px;display:inline-block;margin:2px 0;letter-spacing:.2px}.at-branding-logo .at-branding-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////+GlNUkcc1QAAAB1JREFUeNpiYIQDBjQmAwMmkwEM0JnY1WIxFyDAABGeAFEudiZsAAAAAElFTkSuQmCC")}.at-branding-logo .at-branding-icon,.at-branding-logo .at-privacy-icon{display:inline-block;height:10px;width:10px;margin-left:4px;margin-right:3px;margin-bottom:-1px;background-repeat:no-repeat}.at-branding-logo .at-privacy-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAMAAABR24SMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF8fr9ot/xXcfn2/P5AKva////////AKTWodjhjAAAAAd0Uk5T////////ABpLA0YAAAA6SURBVHjaJMzBDQAwCAJAQaj7b9xifV0kUKJ9ciWxlzWEWI5gMF65KUTv0VKkjVeTerqE/x7+9BVgAEXbAWI8QDcfAAAAAElFTkSuQmCC")}.at-branding-logo span{text-decoration:none}.at-branding-logo .at-branding-addthis,.at-branding-logo .at-branding-powered-by{color:#666}.at-branding-logo .at-branding-addthis:hover{color:#333}.at-cv-with-image .at-branding-addthis,.at-cv-with-image .at-branding-addthis:hover{color:#fff}a.at-branding-logo:visited{color:initial}.at-branding-info{display:inline-block;padding:0 5px;color:#666;border:1px solid #666;border-radius:50%;font-size:10px;line-height:9pt;opacity:.7;transition:all .3s ease;text-decoration:none}.at-branding-info span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.at-branding-info:before{content:'i';font-family:Times New Roman}.at-branding-info:hover{color:#0780df;border-color:#0780df}</style><script src="./Download entire World Economic Outlook database, October 2020_files/s-code-contents-fea544e2ef2e56244938bf0c70c1e6a5a3cd8fbb.js"></script><script type="text/javascript" charset="utf-8" async="" src="./Download entire World Economic Outlook database, October 2020_files/Searchbox.min__3eb9c07b01d15e8bb712.js"></script><script charset="utf-8" src="./Download entire World Economic Outlook database, October 2020_files/CoveoForSitecoreConfigureSearchHub.min.js"></script><script type="text/javascript" charset="utf-8" async="" src="./Download entire World Economic Outlook database, October 2020_files/layers.fa6cd1947ce26e890d3d.js"></script><style type="text/css">.at-share-dock.atss{top:auto;left:0;right:0;bottom:0;width:100%;max-width:100%;z-index:1000200;box-shadow:0 0 1px 1px #e2dfe2}.at-share-dock.at-share-dock-zindex-hide{z-index:-1!important}.at-share-dock.atss-top{bottom:auto;top:0}.at-share-dock a{width:auto;transition:none;color:#fff;text-decoration:none;box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box}.at-share-dock a:hover{width:auto}.at-share-dock .at4-count{height:43px;padding:5px 0 0;line-height:20px;background:#fff;font-family:Helvetica neue,arial}.at-share-dock .at4-count span{width:100%}.at-share-dock .at4-count .at4-share-label{color:#848484;font-size:10px;letter-spacing:1px}.at-share-dock .at4-count .at4-counter{top:2px;position:relative;display:block;color:#222;font-size:22px}.at-share-dock.at-shfs-medium .at4-count{height:36px;line-height:1pc;padding-top:4px}.at-share-dock.at-shfs-medium .at4-count .at4-counter{font-size:18px}.at-share-dock.at-shfs-medium .at-share-btn .at-icon-wrapper,.at-share-dock.at-shfs-medium a .at-icon-wrapper{padding:6px 0}.at-share-dock.at-shfs-small .at4-count{height:26px;line-height:1;padding-top:3px}.at-share-dock.at-shfs-small .at4-count .at4-share-label{font-size:8px}.at-share-dock.at-shfs-small .at4-count .at4-counter{font-size:14px}.at-share-dock.at-shfs-small .at-share-btn .at-icon-wrapper,.at-share-dock.at-shfs-small a .at-icon-wrapper{padding:4px 0}</style><style type="text/css">div.at-share-close-control.ats-dark,div.at-share-open-control-left.ats-dark,div.at-share-open-control-right.ats-dark{background:#262b30}div.at-share-close-control.ats-light,div.at-share-open-control-left.ats-light,div.at-share-open-control-right.ats-light{background:#fff}div.at-share-close-control.ats-gray,div.at-share-open-control-left.ats-gray,div.at-share-open-control-right.ats-gray{background:#f2f2f2}.atss{position:fixed;top:20%;width:3pc;z-index:100020;background:none}.at-share-close-control{position:relative;width:3pc;overflow:auto}.at-share-open-control-left{position:fixed;top:20%;z-index:100020;left:0;width:22px}.at-share-close-control .at4-arrow.at-left{float:right}.atss-left{left:0;float:left;right:auto}.atss-right{left:auto;float:right;right:0}.atss-right.at-share-close-control .at4-arrow.at-right{position:relative;right:0;overflow:auto}.atss-right.at-share-close-control .at4-arrow{float:left}.at-share-open-control-right{position:fixed;top:20%;z-index:100020;right:0;width:22px;float:right}.atss-right .at-share-close-control .at4-arrow{float:left}.atss.atss-right a{float:right}.atss.atss-right .at4-share-title{float:right;overflow:hidden}.atss .at-share-btn,.atss a{position:relative;display:block;width:3pc;margin:0;outline-offset:-1px;text-align:center;float:left;transition:width .15s ease-in-out;overflow:hidden;background:#e8e8e8;z-index:100030;cursor:pointer}.at-share-btn::-moz-focus-inner{border:0;padding:0}.atss-right .at-share-btn{float:right}.atss .at-share-btn{border:0;padding:0}.atss .at-share-btn:focus,.atss .at-share-btn:hover,.atss a:focus,.atss a:hover{width:4pc}.atss .at-share-btn .at-icon-wrapper,.atss a .at-icon-wrapper{display:block;padding:8px 0}.atss .at-share-btn:last-child,.atss a:last-child{border:none}.atss .at-share-btn span .at-icon,.atss a span .at-icon{position:relative;top:0;left:0;display:block;background-repeat:no-repeat;background-position:50% 50%;width:2pc;height:2pc;line-height:2pc;border:none;padding:0;margin:0 auto;overflow:hidden;cursor:pointer;cursor:hand}.at4-share .at-custom-sidebar-counter{font-family:Helvetica neue,arial;vertical-align:top;margin-right:4px;display:inline-block;text-align:center}.at4-share .at-custom-sidebar-count{font-size:17px;line-height:1.25em;color:#222}.at4-share .at-custom-sidebar-text{font-size:9px;line-height:1.25em;color:#888;letter-spacing:1px}.at4-share .at4-share-count-container{position:absolute;left:0;right:auto;top:auto;bottom:0;width:100%;color:#fff;background:inherit}.at4-share .at4-share-count,.at4-share .at4-share-count-container{line-height:1pc;font-size:10px}.at4-share .at4-share-count{text-indent:0;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-weight:200;width:100%;height:1pc}.at4-share .at4-share-count-anchor{padding-bottom:8px;text-decoration:none;transition:padding .15s ease-in-out .15s,width .15s ease-in-out}</style><style type="text/css">#at4-drawer-outer-container{top:0;width:20pc;position:fixed}#at4-drawer-outer-container.at4-drawer-inline{position:relative}#at4-drawer-outer-container.at4-drawer-inline.at4-drawer-right{float:right;right:0;left:auto}#at4-drawer-outer-container.at4-drawer-inline.at4-drawer-left{float:left;left:0;right:auto}#at4-drawer-outer-container.at4-drawer-shown,#at4-drawer-outer-container.at4-drawer-shown *{z-index:999999}#at4-drawer-outer-container,#at4-drawer-outer-container .at4-drawer-outer,#at-drawer{height:100%;overflow-y:auto;overflow-x:hidden}.at4-drawer-push-content-right-back{position:relative;right:0}.at4-drawer-push-content-right{position:relative;left:20pc!important}.at4-drawer-push-content-left-back{position:relative;left:0}.at4-drawer-push-content-left{position:relative;right:20pc!important}#at4-drawer-outer-container.at4-drawer-right{left:auto;right:-20pc}#at4-drawer-outer-container.at4-drawer-left{right:auto;left:-20pc}#at4-drawer-outer-container.at4-drawer-shown.at4-drawer-right{left:auto;right:0}#at4-drawer-outer-container.at4-drawer-shown.at4-drawer-left{right:auto;left:0}#at-drawer{top:0;z-index:9999999;height:100%;animation-duration:.4s}#at-drawer.drawer-push.at-right{right:-20pc}#at-drawer.drawer-push.at-left{left:-20pc}#at-drawer .at-recommended-label{padding:0 0 0 20px;color:#999;line-height:3pc;font-size:18px;font-weight:300;cursor:default}#at-drawer-arrow{width:30px;height:5pc}#at-drawer-arrow.ats-dark{background:#262b30}#at-drawer-arrow.ats-gray{background:#f2f2f2}#at-drawer-open-arrow{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAABcCAYAAAC1OT8uAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjk3ODNCQjdERUQ3QjExRTM5NjFGRUZBODc3MTIwMTNCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjk3ODNCQjdFRUQ3QjExRTM5NjFGRUZBODc3MTIwMTNCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTc4M0JCN0JFRDdCMTFFMzk2MUZFRkE4NzcxMjAxM0IiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTc4M0JCN0NFRDdCMTFFMzk2MUZFRkE4NzcxMjAxM0IiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7kstzCAAAB4ElEQVR42uyWv0oDQRDGb9dYimgVjliID2Ca9AGfwtZob2Grja1PIFj7EhGCYK99VPBPOkVMp8X5rc6FeN7dfjOksMjAxwXZ3667OzvfLKRr682l5ZV9aDh+fxsnRHhoDzqGLjFBi4XOoFtoAxowoB893o/w7WpAl/+QgQMBwwRdTPhUC2lAV/wDA7qy5WOgq9psHejqTqkKdLE7KYCv0JZjMgBgB58raBG6mP1K6j2pT099T+qMUOeeOss1wDcEIA1PnQXy576rAUI0oFMoC7VCnn40Gs8Pd4lAiXNUKmJ0lh1mPzGEWiyUCqAGW3Pwv4IvUJsFO9CHgP3Zr6Te0xwgAf3LxaAjS241pbikCRkOg+nSJdV4p8HOPl3vvRYI5dtrgVDvvcWovcWovcWovcWovcWovcWovQChWNywNpqvdAKtQp/QNmPUIQ6kwwqt2Xmsxf6GMPM1Pptsbz45CPmXqKb+15Gz4J/LZcDSNIqBlQlbB0afe1mmUDWiCNKFZRq0VKMeXY1CTDq2sJLWsCmoaBBRqNRR6qBKC6qCaj2rDIqaXBGiXHEaom00h1S+K3fVlr6HNuqgvgCh0+owt21bybQn8+mZ78mcEebcM2e5+T2ZX24ZqCph0qn1vgQYAJ/KDpLQr2tPAAAAAElFTkSuQmCC);background-repeat:no-repeat;width:13px;height:23px;margin:28px 0 0 8px}.at-left #at-drawer-open-arrow{background-position:0 -46px}.ats-dark #at-drawer-open-arrow{background-position:0 -23px}.ats-dark.at-left #at-drawer-open-arrow{background-position:0 -69px}#at-drawer-arrow.at4-drawer-modern-browsers{position:fixed;top:40%;background-repeat:no-repeat;background-position:0 0!important;z-index:9999999}.at4-drawer-inline #at-drawer-arrow{position:absolute}#at-drawer-arrow.at4-drawer-modern-browsers.at-right{right:0}#at-drawer-arrow.at4-drawer-modern-browsers.at-left{left:0}.at4-drawer-push-animation-left{transition:left .4s ease-in-out .15s}.at4-drawer-push-animation-right{transition:right .4s ease-in-out .15s}#at-drawer.drawer-push.at4-drawer-push-animation-right{right:0}#at-drawer.drawer-push.at4-drawer-push-animation-right-back{right:-20pc!important}#at-drawer.drawer-push.at4-drawer-push-animation-left{left:0}#at-drawer.drawer-push.at4-drawer-push-animation-left-back{left:-20pc!important}#at-drawer .at4-closebutton.drawer-close{content:'X';color:#999;display:block;position:absolute;margin:0;top:0;right:0;width:3pc;height:45px;line-height:45px;overflow:hidden;opacity:.5}#at-drawer.ats-dark .at4-closebutton.drawer-close{color:#fff}#at-drawer .at4-closebutton.drawer-close:hover{opacity:1}#at-drawer.ats-dark.at4-recommended .at4-logo-container a{color:#666}#at-drawer.at4-recommended .at4-recommended-vertical{padding:0}#at-drawer.at4-recommended .at4-recommended-item .sponsored-label{margin:2px 0 0 21px;color:#ddd}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item{position:relative;padding:0;width:20pc;height:180px;margin:0}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img a:after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.65);z-index:1000000;transition:all .2s ease-in-out}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item.at-hover .at4-recommended-item-img a:after{background:rgba(0,0,0,.8)}#at-drawer .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img,#at-drawer .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img a,#at-drawer .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img img{width:20pc;height:180px;float:none}#at-drawer .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption{width:100%;position:absolute;bottom:0;left:0;height:70px}#at-drawer .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption .at-h4{color:#fff;position:absolute;height:52px;top:0;left:20px;right:20px;margin:0;padding:0;line-height:25px;font-size:20px;font-weight:600;z-index:1000001;text-decoration:none;text-transform:none}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption .at-h4 a:hover{text-decoration:none}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption .at-h4 a:link{color:#fff}#at-drawer.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption small{position:absolute;top:auto;bottom:10px;left:20px;width:auto;color:#ccc}#at-drawer.at4-recommended .at4-logo-container{margin-left:20px}#at-drawer.ats-dark.at4-recommended .at4-logo-container a:hover{color:#fff}#at-drawer.at4-recommended .at-logo{margin:0}</style><style type="text/css">.at4-follow.at-mobile{display:none!important}.at4-follow{position:fixed;top:0;right:0;font-weight:400;color:#666;cursor:default;z-index:10001}.at4-follow .at4-follow-inner{position:relative;padding:10px 24px 10px 15px}.at4-follow-inner,.at-follow-open-control{border:0 solid #c5c5c5;border-width:1px 0 1px 1px;margin-top:-1px}.at4-follow .at4-follow-container{margin-left:9pt}.at4-follow.at4-follow-24 .at4-follow-container{height:24px;line-height:23px;font-size:13px}.at4-follow.at4-follow-32 .at4-follow-container{width:15pc;height:2pc;line-height:2pc;font-size:14px}.at4-follow .at4-follow-container .at-follow-label{display:inline-block;height:24px;line-height:24px;margin-right:10px;padding:0;cursor:default;float:left}.at4-follow .at4-follow-container .at-icon-wrapper{height:24px;width:24px}.at4-follow.ats-transparent .at4-follow-inner,.at-follow-open-control.ats-transparent{border-color:transparent}.at4-follow.ats-dark .at4-follow-inner,.at-follow-open-control.ats-dark{background:#262b30;border-color:#000;color:#fff}.at4-follow.ats-dark .at-follow-close-control{background-color:#262b30}.at4-follow.ats-light .at4-follow-inner{background:#fff;border-color:#c5c5c5}.at4-follow.ats-gray .at4-follow-inner,.at-follow-open-control.ats-gray{background:#f2f2f2;border-color:#c5c5c5}.at4-follow.ats-light .at4-follow-close-control,.at-follow-open-control.ats-light{background:#e5e5e5}.at4-follow .at4-follow-inner .at4-follow-close-control{position:absolute;top:0;bottom:0;left:0;width:20px;cursor:pointer;display:none}.at4-follow .at4-follow-inner .at4-follow-close-control div{display:block;line-height:20px;text-indent:-9999em;margin-top:calc(50% + 1px);overflow:hidden}.at-follow-open-control div.at4-arrow.at-left{background-position:0 -2px}.at-follow-open-control{position:fixed;height:35px;top:0;right:0;padding-top:10px;z-index:10002}.at-follow-btn{margin:0 5px 5px 0;padding:0;outline-offset:-1px;display:inline-block;box-sizing:content-box;transition:all .2s ease-in-out}.at-follow-btn:focus,.at-follow-btn:hover{transform:translateY(-4px)}.at4-follow-24 .at-follow-btn{height:25px;line-height:0;width:25px}</style><style type="text/css">.at-follow-tbx-element .at300b,.at-follow-tbx-element .at300m{display:inline-block;width:auto;padding:0;margin:0 2px 5px;outline-offset:-1px;transition:all .2s ease-in-out}.at-follow-tbx-element .at300b:focus,.at-follow-tbx-element .at300b:hover,.at-follow-tbx-element .at300m:focus,.at-follow-tbx-element .at300m:hover{transform:translateY(-4px)}.at-follow-tbx-element .addthis_vertical_style .at300b,.at-follow-tbx-element .addthis_vertical_style .at300m{display:block}.at-follow-tbx-element .addthis_vertical_style .at300b .addthis_follow_label,.at-follow-tbx-element .addthis_vertical_style .at300b .at-icon-wrapper,.at-follow-tbx-element .addthis_vertical_style .at300m .addthis_follow_label,.at-follow-tbx-element .addthis_vertical_style .at300m .at-icon-wrapper{display:inline-block;vertical-align:middle;margin-right:5px}.at-follow-tbx-element .addthis_vertical_style .at300b:focus,.at-follow-tbx-element .addthis_vertical_style .at300b:hover,.at-follow-tbx-element .addthis_vertical_style .at300m:focus,.at-follow-tbx-element .addthis_vertical_style .at300m:hover{transform:none}</style><style type="text/css">.at4-jumboshare .at-share-btn{display:inline-block;margin-right:13px;margin-top:13px}.at4-jumboshare .at-share-btn .at-icon{float:left}.at4-jumboshare .at-share-btn .at300bs{display:inline-block;float:left;cursor:pointer}.at4-jumboshare .at4-mobile .at-share-btn .at-icon,.at4-jumboshare .at4-mobile .at-share-btn .at-icon-wrapper{margin:0;padding:0}.at4-jumboshare .at4-mobile .at-share-btn{padding:0}.at4-jumboshare .at4-mobile .at-share-btn .at-label{display:none}.at4-jumboshare .at4-count{font-size:60px;line-height:60px;font-family:Helvetica neue,arial;font-weight:700}.at4-jumboshare .at4-count-container{display:table-cell;text-align:center;min-width:200px;vertical-align:middle;border-right:1px solid #ccc;padding-right:20px}.at4-jumboshare .at4-share-container{display:table-cell;vertical-align:middle;padding-left:20px}.at4-jumboshare .at4-share-container.at-share-tbx-element{padding-top:0}.at4-jumboshare .at4-title{position:relative;font-size:18px;line-height:18px;bottom:2px}.at4-jumboshare .at4-spacer{height:1px;display:block;visibility:hidden;opacity:0}.at4-jumboshare .at-share-btn{display:inline-block;margin:0 2px;line-height:0;padding:0;overflow:hidden;text-decoration:none;text-transform:none;color:#fff;cursor:pointer;transition:all .2s ease-in-out;border:0;background-color:transparent}.at4-jumboshare .at-share-btn:focus,.at4-jumboshare .at-share-btn:hover{transform:translateY(-4px);color:#fff;text-decoration:none}.at4-jumboshare .at-label{font-family:helvetica neue,helvetica,arial,sans-serif;font-size:9pt;padding:0 15px 0 0;margin:0;height:2pc;line-height:2pc;background:none}.at4-jumboshare .at-share-btn:hover,.at4-jumboshare .at-share-btn:link{text-decoration:none}.at4-jumboshare .at-share-btn::-moz-focus-inner{border:0;padding:0}.at4-jumboshare.at-mobile .at-label{display:none}</style><style type="text/css">.at4-recommendedbox-outer-container{display:inline}.at4-recommended-outer{position:static}.at4-recommended{top:20%;margin:0;text-align:center;font-weight:400;font-size:13px;line-height:17px;color:#666}.at4-recommended.at-inline .at4-recommended-horizontal{text-align:left}.at4-recommended-recommendedbox{padding:0;z-index:inherit}.at4-recommended-recommended{padding:40px 0}.at4-recommended-horizontal{max-height:340px}.at4-recommended.at-medium .at4-recommended-horizontal{max-height:15pc}.at4-recommended.at4-minimal.at-medium .at4-recommended-horizontal{padding-top:10px;max-height:230px}.at4-recommended-text-only .at4-recommended-horizontal{max-height:130px}.at4-recommended-horizontal{padding-top:5px;overflow-y:hidden}.at4-minimal{background:none;color:#000;border:none!important;box-shadow:none!important}@media screen and (max-width:900px){.at4-recommended-horizontal .at4-recommended-item,.at4-recommended-horizontal .at4-recommended-item .at4-recommended-item-img{width:15pc}}.at4-recommended.at4-minimal .at4-recommended-horizontal .at4-recommended-item .at4-recommended-item-caption{padding:0 0 10px}.at4-recommended.at4-minimal .at4-recommended-horizontal .at4-recommended-item-caption{padding:20px 0 0!important}.addthis-smartlayers .at4-recommended .at-h3.at-recommended-label{margin:0;padding:0;font-weight:300;font-size:18px;line-height:24px;color:#464646;width:100%;display:inline-block;zoom:1}.addthis-smartlayers .at4-recommended.at-inline .at-h3.at-recommended-label{text-align:left}#at4-thankyou .addthis-smartlayers .at4-recommended.at-inline .at-h3.at-recommended-label{text-align:center}.at4-recommended .at4-recommended-item{display:inline-block;zoom:1;position:relative;background:#fff;border:1px solid #c5c5c5;width:200px;margin:10px}.addthis_recommended_horizontal .at4-recommended-item{border:none}.at4-recommended .at4-recommended-item .sponsored-label{color:#666;font-size:9px;position:absolute;top:-20px}.at4-recommended .at4-recommended-item-img .at-tli,.at4-recommended .at4-recommended-item-img a{position:absolute;left:0}.at4-recommended.at-inline .at4-recommended-horizontal .at4-recommended-item{margin:10px 20px 0 0}.at4-recommended.at-medium .at4-recommended-horizontal .at4-recommended-item{margin:10px 10px 0 0}.at4-recommended.at-medium .at4-recommended-item{width:140px;overflow:hidden}.at4-recommended .at4-recommended-item .at4-recommended-item-img{position:relative;text-align:center;width:100%;height:200px;line-height:0;overflow:hidden}.at4-recommended .at4-recommended-item .at4-recommended-item-img a{display:block;width:100%;height:200px}.at4-recommended.at-medium .at4-recommended-item .at4-recommended-item-img,.at4-recommended.at-medium .at4-recommended-item .at4-recommended-item-img a{height:140px}.at4-recommended .at4-recommended-item .at4-recommended-item-img img{position:absolute;top:0;left:0;min-height:0;min-width:0;max-height:none;max-width:none;margin:0;padding:0}.at4-recommended .at4-recommended-item .at4-recommended-item-caption{height:74px;overflow:hidden;padding:20px;text-align:left;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box}.at4-recommended.at-medium .at4-recommended-item .at4-recommended-item-caption{height:50px;padding:15px}.at4-recommended .at4-recommended-item .at4-recommended-item-caption .at-h4{height:54px;margin:0 0 5px;padding:0;overflow:hidden;word-wrap:break-word;font-size:14px;font-weight:400;line-height:18px;text-align:left}.at4-recommended.at-medium .at4-recommended-item .at4-recommended-item-caption .at-h4{font-size:9pt;line-height:1pc;height:33px}.at4-recommended .at4-recommended-item:hover .at4-recommended-item-caption .at-h4{text-decoration:underline}.at4-recommended a:link,.at4-recommended a:visited{text-decoration:none;color:#464646}.at4-recommended .at4-recommended-item .at4-recommended-item-caption .at-h4 a:hover{text-decoration:underline;color:#000}.at4-recommended .at4-recommended-item .at4-recommended-item-caption small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:11px;color:#666}.at4-recommended.at-medium .at4-recommended-item .at4-recommended-item-caption small{font-size:9px}.at4-recommended .at4-recommended-vertical{padding:15px 0 0}.at4-recommended .at4-recommended-vertical .at4-recommended-item{display:block;width:auto;max-width:100%;height:60px;border:none;margin:0 0 15px;box-shadow:none;background:none}.at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img,.at4-recommended-vertical .at4-recommended-item .at4-recommended-item-img img{width:60px;height:60px;float:left}.at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption{border-top:none;margin:0;height:60px;padding:3px 5px}.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption .at-h4{height:38px;margin:0}.at4-recommended .at4-recommended-vertical .at4-recommended-item .at4-recommended-item-caption small{position:absolute;bottom:0}.at4-recommended .at-recommended-label.at-vertical{text-align:left}.at4-no-image-light-recommended,.at4-no-image-minimal-recommended{background-color:#f2f2f2!important}.at4-no-image-gray-recommended{background-color:#e6e6e5!important}.at4-no-image-dark-recommended{background-color:#4e555e!important}.at4-recommended .at4-recommended-item-placeholder-img{background-repeat:no-repeat!important;background-position:center!important;width:100%!important;height:100%!important}.at4-recommended-horizontal .at4-no-image-dark-recommended .at4-recommended-item-placeholder-img{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAYAAACCox+xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjlFNUUyQTg3MTI0RDExRTM4NzAwREJDRjlCQzAyMUVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlFNUUyQTg4MTI0RDExRTM4NzAwREJDRjlCQzAyMUVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OUU1RTJBODUxMjREMTFFMzg3MDBEQkNGOUJDMDIxRUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OUU1RTJBODYxMjREMTFFMzg3MDBEQkNGOUJDMDIxRUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6oCfPiAAABfUlEQVR42uyWTU/DMAyGm3bdBxp062hHe+PC//9HCIkDYpNAO7CPAuWN5Eohyhpno2GHWqq8pO78xHHsiLquH4L/l6cwuBAZaOPKs//YBFIJIR59UiAt7huYi90aE/UQakTDLaL26RUEAAJqiefm93T9Bpj1X4O0bY0OIUXCpYBJvYDAUWyAUCWliHGTcnpqRMaM72ImRAJVknYG+eb4YEDIBeU0zGnsBLK1ODogYSsLhDwIJeVVk18lzfNA4ERGZNXi59UCIQhiYDilpSm/jp4awLxDvWhlf4/nGe8+LLuSt+SZul28ggaHG6gNVhDR+IuRFzOoxGKWwG7vVFm5AAQxgcqYpzrjFjR9zwPH5LSuT7XlNr2MQm5LzqjLpncNNaM+s8M27Y60g3FwhoSMzrtUQllgLtRs5pZ2cB4IhbvQbGRZv1NsrhyS8+SI5Mo9RJWpjAI1xqKL+0iEP180vy214JbeR12AyOgsHI7e0NfFyKv0ID1ID+IqPwIMAOeljGQOryBmAAAAAElFTkSuQmCC)!important}.at4-recommended-vertical .at4-no-image-dark-recommended .at4-recommended-item-placeholder-img{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAzREMyNTM2MTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAzREMyNTM3MTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDNEQzI1MzQxMjRGMTFFMzg3MDBEQkNGOUJDMDIxRUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDNEQzI1MzUxMjRGMTFFMzg3MDBEQkNGOUJDMDIxRUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5GfbtkAAAAxklEQVR42qRSTQvCMAxduk53mEOHKFPP/v8/5cGTiIibivVFUomlG7gFHvloXpKmJefcPhkmNyvGEWj+IOZA6ckPImoxxVwOLvCvXUzkpayNCpRQK64IbOBnAYGAXMeMslNlU+CzrIEdCkxi5DPAoz6BE8ZuVNdKJuL8rS9sv62IXlCHyP0KqKUKZXK9uwkSLVArfwpVR3b225kXwovibcP+jC4jUtfWPZmfqJJnYlkAM128j1z0nHWKSUbIKDL/msHktwADAPptQo+vkZNLAAAAAElFTkSuQmCC)!important}.at4-recommended-horizontal .at4-no-image-gray-recommended .at4-recommended-item-placeholder-img,.at4-recommended-horizontal .at4-no-image-light-recommended .at4-recommended-item-placeholder-img,.at4-recommended-horizontal .at4-no-image-minimal-recommended .at4-recommended-item-placeholder-img{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAYAAACCox+xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAzREMyNTMyMTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAzREMyNTMzMTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OUU1RTJBODkxMjREMTFFMzg3MDBEQkNGOUJDMDIxRUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OUU1RTJBOEExMjREMTFFMzg3MDBEQkNGOUJDMDIxRUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6dfDQvAAABg0lEQVR42uyWS0vDQBDH82jaKNW0qUltbl68e/Di98eLBz+CCB5EBaWIpUat/4UJLMuame1j7SEDYbqbKfPLvHbDi8ur8+D/5T4K9kR6xrr27D+xgdS3N9d3PilQFmcNzN6mxkbdhxrQcoGofXkFAUAINcVzrG2vsP8KmJdtg7SlxoRQouBywOReQOAosUDoklPEpEU5XDciqeB/iRAig6pIO4P8CHysBBDqg0palrR2Alkwjj5RsDUDoRqhorpq6quifRkInKiIPLf4eWIgQoLoWbq0stXXn10DmDeoR2PsL/E84N0Hk5Wypc70dMkGGhzOoeb4gpjW34K6GEFljFkGu6XTZJUCEMQBVCHs6kI60MycB47FyUmo20oPvYJCzhVnvIsR3zg5ghoRTNpyHKTBBhIJTt6pFsoZ9iLDZswcB5uBULhnho0a66eazaFDca59Hym1e4guQ4rCO4Fu/T4Sw8Gk+c3MghN6H+8CRKVg4tB6fV8XI6/SgXQgHYir/AowAMU5TskhKVUNAAAAAElFTkSuQmCC)!important}.at4-recommended-vertical .at4-no-image-gray-recommended .at4-recommended-item-placeholder-img,.at4-recommended-vertical .at4-no-image-light-recommended .at4-recommended-item-placeholder-img,.at4-recommended-vertical .at4-no-image-minimal-recommended .at4-recommended-item-placeholder-img{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAzREMyNTNBMTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAzREMyNTNCMTI0RjExRTM4NzAwREJDRjlCQzAyMUVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDNEQzI1MzgxMjRGMTFFMzg3MDBEQkNGOUJDMDIxRUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDNEQzI1MzkxMjRGMTFFMzg3MDBEQkNGOUJDMDIxRUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz65Fr9cAAAA0ElEQVR42qRRuQrCQBDd3SSaIgYNosSrtLew8f+xsfAnYmEVRMR4YHwjExjCbsBk4DHHzptjR2+2u7VqJ3efjTNQ/EEMgbgiv46H/QNTDPnhCv/mYiLPI21EIIaaUEVgBj+oETQQypgRtidsXfNJpsACBXo28gWgUd9AjrEL0TXhiSh/XhWudlZI/kCdLPtFUGMRCni9p6kl+kAq/D5UavmzX2fNd87obsCSfztnrOR0rjvTiRImkoyAQQNRyZ2jhjenGNVBOpF1WZatyV8BBgBJ+irgS/KHdAAAAABJRU5ErkJggg==)!important}#at-drawer.ats-dark,.at4-recommended.ats-dark .at4-recommended-horizontal .at4-recommended-item-caption,.at4-recommended.ats-dark .at4-recommended-vertical .at4-recommended-item-caption{background:#262b30}#at-drawer.ats-gray,.at4-recommended.ats-gray .at4-recommended-horizontal .at4-recommended-item-caption{background:#f2f2f2}#at-drawer.ats-light,.at4-recommended.ats-light .at4-recommended-horizontal .at4-recommended-item-caption{background:#fff}.at4-recommended.ats-dark .at4-recommended-vertical .at4-recommended-item{background:none}.at4-recommended.ats-dark .at4-recommended-item .at4-recommended-item-caption a:hover,.at4-recommended.ats-dark .at4-recommended-item .at4-recommended-item-caption a:link,.at4-recommended.ats-dark .at4-recommended-item .at4-recommended-item-caption a:visited,.at4-recommended.ats-dark .at4-recommended-item .at4-recommended-item-caption small,.at4-recommended.ats-dark .at4-recommended-item-caption,.at4-recommended.ats-dark .at-logo a:hover,.at4-recommended.ats-dark .at-recommended-label.at-vertical{color:#fff}.at4-recommended-vertical-logo{padding-top:0;text-align:left}.at4-recommended-vertical-logo .at4-logo-container{line-height:10px}.at4-recommended-horizontal-logo{text-align:center}.at4-recommended.at-inline .at4-recommended-horizontal-logo{text-align:left}#at4-thankyou .at4-recommended.at-inline .at4-recommended-horizontal{text-align:center}.at4-recommended .at-logo{margin:10px 0 0;padding:0;height:25px;overflow:auto;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box}.at4-recommended.at-inline .at4-recommended-horizontal .at-logo{text-align:left}.at4-recommended .at4-logo-container a.at-sponsored-link{color:#666}.at4-recommended-class .at4-logo-container a:hover,.at4-recommendedbox-outer-container .at4-recommended-recommendedbox .at4-logo-container a:hover{color:#000}</style><style type="text/css">.at-recommendedjumbo-outer-container{margin:0;padding:0;border:0;background:none;color:#000}.at-recommendedjumbo-footer{position:relative;width:100%;height:510px;overflow:hidden;transition:all .3s ease-in-out}.at-mobile .at-recommendedjumbo-footer{height:250px}.at-recommendedjumbo-footer #bg-link:after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.75)}.at-recommendedjumbo-footer:hover #bg-link:after{background:rgba(0,0,0,.85)}.at-recommendedjumbo-footer *,.at-recommendedjumbo-footer :after,.at-recommendedjumbo-footer :before{box-sizing:border-box}.at-recommendedjumbo-footer:hover #at-recommendedjumbo-footer-bg{animation:atRecommendedJumboAnimatedBackground 1s ease-in-out 1;animation-fill-mode:forwards}.at-recommendedjumbo-footer #at-recommendedjumbo-top-holder{position:absolute;top:0;padding:0 40px;width:100%}.at-mobile .at-recommendedjumbo-footer #at-recommendedjumbo-top-holder{padding:0 20px}.at-recommendedjumbo-footer .at-recommendedjumbo-footer-inner{position:relative;text-align:center;font-family:helvetica,arial,sans-serif;z-index:2;width:100%}.at-recommendedjumbo-footer #at-recommendedjumbo-label-holder{margin:40px 0 0;max-height:30px}.at-mobile .at-recommendedjumbo-footer #at-recommendedjumbo-label-holder{margin:20px 0 0;max-height:20px}.at-recommendedjumbo-footer #at-recommendedjumbo-label{font-weight:300;font-size:24px;line-height:24px;color:#fff;margin:0}.at-mobile .at-recommendedjumbo-footer #at-recommendedjumbo-label{font-weight:150;font-size:14px;line-height:14px}.at-recommendedjumbo-footer #at-recommendedjumbo-title-holder{margin:20px 0 0;min-height:3pc;max-height:78pt}.at-mobile .at-recommendedjumbo-footer #at-recommendedjumbo-title-holder{margin:10px 0 0;min-height:24px;max-height:54px}.at-recommendedjumbo-footer #at-recommendedjumbo-content-title{font-size:3pc;line-height:52px;font-weight:700;margin:0}.at-mobile .at-recommendedjumbo-footer #at-recommendedjumbo-content-title{font-size:24px;line-height:27px}.at-recommendedjumbo-footer a{text-decoration:none;color:#fff}.at-recommendedjumbo-footer a:visited{color:#fff}.at-recommendedjumbo-footer small{margin:20px 0 0;display:inline-block;height:2pc;line-height:2pc;font-size:14px;color:#ccc;cursor:default}.at-mobile .at-recommendedjumbo-footer small{margin:10px 0 0;height:14px;line-height:14px;font-size:9pt}.at-recommendedjumbo-footer .at-logo-container{position:absolute;bottom:20px;margin:auto;left:0;right:0}.at-mobile .at-recommendedjumbo-footer .at-logo-container{bottom:10px}.at-recommendedjumbo-footer a.at-sponsored-link{color:#ccc}.at-recommendedjumbo-footer div #at-recommendedjumbo-logo-link{padding:2px 0 0 11px;text-decoration:none;line-height:20px;font-family:helvetica,arial,sans-serif;font-size:9px;color:#ccc}@keyframes atRecommendedJumboAnimatedBackground{0%{transform:scale(1,1)}to{transform:scale(1.1,1.1)}}</style><style type="text/css">.at-resp-share-element{position:relative;padding:0;margin:0;font-size:0;line-height:0}.at-resp-share-element:after,.at-resp-share-element:before{content:" ";display:table}.at-resp-share-element.at-mobile .at4-share-count-container,.at-resp-share-element.at-mobile .at-label{display:none}.at-resp-share-element .at-share-btn{display:inline-block;*display:inline;*zoom:1;margin:0 2px 5px;padding:0;overflow:hidden;line-height:0;text-decoration:none;text-transform:none;color:#fff;cursor:pointer;transition:all .2s ease-in-out;border:0;font-family:helvetica neue,helvetica,arial,sans-serif;background-color:transparent}.at-resp-share-element .at-share-btn::-moz-focus-inner{border:0;padding:0}.at-resp-share-element .at-share-btn:focus,.at-resp-share-element .at-share-btn:hover{transform:translateY(-4px);color:#fff;text-decoration:none}.at-resp-share-element .at-share-btn .at-icon-wrapper{float:left}.at-resp-share-element .at-share-btn.at-share-btn.at-svc-compact:hover{transform:none}.at-resp-share-element .at-share-btn .at-label{font-family:helvetica neue,helvetica,arial,sans-serif;font-size:9pt;padding:0 15px 0 0;margin:0 0 0 5px;height:2pc;line-height:2pc;background:none}.at-resp-share-element .at-icon,.at-resp-share-element .at-label{cursor:pointer}.at-resp-share-element .at4-share-count-container{text-decoration:none;float:right;padding-right:15px;font-size:9pt}.at-mobile .at-resp-share-element .at-label{display:none}.at-resp-share-element.at-mobile .at-share-btn{margin-right:5px}.at-mobile .at-resp-share-element .at-share-btn{padding:5px;margin-right:5px}</style><style type="text/css">.at-share-tbx-element{position:relative;margin:0;color:#fff;font-size:0}.at-share-tbx-element,.at-share-tbx-element .at-share-btn{font-family:helvetica neue,helvetica,arial,sans-serif;padding:0;line-height:0}.at-share-tbx-element .at-share-btn{cursor:pointer;margin:0 5px 5px 0;display:inline-block;overflow:hidden;border:0;text-decoration:none;text-transform:none;background-color:transparent;color:inherit;transition:all .2s ease-in-out}.at-share-tbx-element .at-share-btn:focus,.at-share-tbx-element .at-share-btn:hover{transform:translateY(-4px);outline-offset:-1px;color:inherit}.at-share-tbx-element .at-share-btn::-moz-focus-inner{border:0;padding:0}.at-share-tbx-element .at-share-btn.at-share-btn.at-svc-compact:hover{transform:none}.at-share-tbx-element .at-icon-wrapper{vertical-align:middle}.at-share-tbx-element .at4-share-count,.at-share-tbx-element .at-label{margin:0 7.5px 0 2.5px;text-decoration:none;vertical-align:middle;display:inline-block;background:none;height:0;font-size:inherit;line-height:inherit;color:inherit}.at-share-tbx-element.at-mobile .at4-share-count,.at-share-tbx-element.at-mobile .at-label{display:none}.at-share-tbx-element .at_native_button{vertical-align:middle}.at-share-tbx-element .addthis_counter.addthis_bubble_style{margin:0 2px;vertical-align:middle;display:inline-block}.at-share-tbx-element .fb_iframe_widget{display:block}.at-share-tbx-element.at-share-tbx-native .at300b{vertical-align:middle}.at-style-responsive .at-share-btn{padding:5px}.at-style-jumbo{display:table}.at-style-jumbo .at4-spacer{height:1px;display:block;visibility:hidden;opacity:0}.at-style-jumbo .at4-count-container{display:table-cell;text-align:center;min-width:200px;vertical-align:middle;border-right:1px solid #ccc;padding-right:20px}.at-style-jumbo .at4-count{font-size:60px;line-height:60px;font-weight:700}.at-style-jumbo .at4-count-title{position:relative;font-size:18px;line-height:18px;bottom:2px}.at-style-jumbo .at-share-btn-elements{display:table-cell;vertical-align:middle;padding-left:20px}.at_flat_counter{cursor:pointer;font-family:helvetica,arial,sans-serif;font-weight:700;text-transform:uppercase;display:inline-block;position:relative;vertical-align:top;height:auto;margin:0 5px;padding:0 6px;left:-1px;background:#ebebeb;color:#32363b;transition:all .2s ease}.at_flat_counter:after{top:30%;left:-4px;content:"";position:absolute;border-width:5px 8px 5px 0;border-style:solid;border-color:transparent #ebebeb transparent transparent;display:block;width:0;height:0;transform:translateY(360deg)}.at_flat_counter:hover{background:#e1e2e2}</style><style type="text/css">.at4-thankyou-background{top:0;right:0;left:0;bottom:0;-webkit-overflow-scrolling:touch;z-index:9999999;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpizCuu/sRABGBiIBKMKqSOQoAAAwC8KgJipENhxwAAAABJRU5ErkJggg==);background:hsla(217,6%,46%,.95)}.at4-thankyou-background.at-thankyou-shown{position:fixed}.at4-thankyou-inner{position:absolute;width:100%;top:10%;left:50%;margin-left:-50%;text-align:center}.at4-thankyou-mobile .at4-thankyou-inner{top:5%}.thankyou-description{font-weight:400}.at4-thankyou-background .at4lb-inner{position:relative;width:100%;height:100%}.at4-thankyou-background .at4lb-inner .at4x{position:absolute;top:15px;right:15px;display:block;width:20px;height:20px;padding:20px;margin:0;cursor:pointer;transition:opacity .25s ease-in;opacity:.4;background:url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTEvMTMvMTKswDp5AAAAd0lEQVQ4jb2VQRLAIAgDE///Z3qqY1FAhalHMCsCIkVEAIAkkVgvp2lDBgYAnAyHkWotLccNrEd4A7X2TqIdqLfnWBAdaF5rJdyJfjtPH5GT37CaGhoVq3nOm/XflUuLUto2pY1d+vRKh0Pp+MrAVtDe2JkvYNQ+jVSEEFmOkggAAAAASUVORK5CYII=") no-repeat center center;overflow:hidden;text-indent:-99999em;border:1px solid transparent}.at4-thankyou-background .at4lb-inner .at4x:focus,.at4-thankyou-background .at4lb-inner .at4x:hover{border:1px solid #fff;border-radius:50%;outline:0}.at4-thankyou-background .at4lb-inner #at4-palogo{position:absolute;bottom:10px;display:inline-block;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:11px;cursor:pointer;-webkit-transition:opacity .25s ease-in;moz-transition:opacity .25s ease-in;transition:opacity .25s ease-in;opacity:.5;z-index:100020;color:#fff;padding:2px 0 0 13px}.at4-thankyou-background .at4lb-inner #at4-palogo .at-branding-addthis,.at4-thankyou-background .at4lb-inner #at4-palogo .at-branding-info{color:#fff}.at4-thankyou-background .at4lb-inner #at4-palogo:hover,.at4-thankyou-background.ats-dark .at4lb-inner a#at4-palogo:hover{text-decoration:none;color:#fff;opacity:1}.at4-thankyou-background.ats-dark{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgeMZABGBiIBKMKqSOQoAAAwB+cQD6hqlbCwAAAABJRU5ErkJggg==");background:rgba(0,0,0,.85)}.at4-thankyou-background .thankyou-title{color:#fff;font-size:38.5px;margin:10px 20px;line-height:38.5px;font-family:helvetica neue,helvetica,arial,sans-serif;font-weight:300}.at4-thankyou-background.ats-dark .thankyou-description,.at4-thankyou-background.ats-dark .thankyou-title{color:#fff}.at4-thankyou-background .thankyou-description{color:#fff;font-size:18px;margin:10px 0;line-height:24px;padding:0;font-family:helvetica neue,helvetica,arial,sans-serif;font-weight:300}.at4-thankyou-background .at4-thanks-icons{padding-top:10px}.at4-thankyou-mobile *{-webkit-overflow-scrolling:touch}#at4-thankyou .at4-recommended-recommendedbox .at-logo{display:none}.at4-thankyou .at-h3{height:49px;line-height:49px;margin:0 50px 0 20px;padding:1px 0 0;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:1pc;font-weight:700;color:#fff;text-shadow:0 1px #000}.at4-thanks{padding-top:50px;text-align:center}.at4-thanks label{display:block;margin:0 0 15px;font-size:1pc;line-height:1pc}.at4-thanks .at4-h2{background:none;border:none;margin:0 0 10px;padding:0;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:28px;font-weight:300;color:#000}.at4-thanks .at4-thanks-icons{position:relative;height:2pc}.at4-thanks .at4-thanks-icons .at-thankyou-label{display:block;padding-bottom:10px;font-size:14px;color:#666}.at4-thankyou-layer .at-follow .at-icon-wrapper{width:2pc;height:2pc}</style><style type="text/css">.at4-recommended-toaster{position:fixed;top:auto;bottom:0;right:0;z-index:100021}.at4-recommended-toaster.ats-light{border:1px solid #c5c5c5;background:#fff}.at4-recommended-toaster.ats-gray{border:1px solid #c5c5c5;background:#f2f2f2}.at4-recommended-toaster.ats-dark{background:#262b30;color:#fff}.at4-recommended-toaster .at4-recommended-container{padding-top:0;margin:0}.at4-recommended.at4-recommended-toaster div.at-recommended-label{line-height:1pc;font-size:1pc;text-align:left;padding:20px 0 0 20px}.at4-toaster-outer .at4-recommended .at4-recommended-item .at4-recommended-item-caption .at-h4{font-size:11px;line-height:11px;margin:10px 0 6px;height:30px}.at4-recommended.at4-recommended-toaster div.at-recommended-label.ats-gray,.at4-recommended.at4-recommended-toaster div.at-recommended-label.ats-light{color:#464646}.at4-recommended.at4-recommended-toaster div.at-recommended-label.ats-dark{color:#fff}.at4-toaster-close-control{position:absolute;top:0;right:0;display:block;width:20px;height:20px;line-height:20px;margin:5px 5px 0 0;padding:0;text-indent:-9999em}.at4-toaster-open-control{position:fixed;right:0;bottom:0;z-index:100020}.at4-toaster-outer .at4-recommended-item{width:90pt;border:0;margin:9px 10px 0}.at4-toaster-outer .at4-recommended-item:first-child{margin-left:20px}.at4-toaster-outer .at4-recommended-item:last-child{margin-right:20px}.at4-toaster-outer .at4-recommended-item .at4-recommended-item-img{max-height:90pt;max-width:90pt}.at4-toaster-outer .at4-recommended-item .at4-recommended-item-img img{height:90pt;width:90pt}.at4-toaster-outer .at4-recommended-item .at4-recommended-item-caption{height:30px;padding:0;margin:0;height:initial}.at4-toaster-outer .ats-dark .at4-recommended-item .at4-recommended-item-caption{background:#262b30}.at4-toaster-outer .at4-recommended .at4-recommended-item .at4-recommended-item-caption small{width:auto;line-height:14px;margin:0}.at4-toaster-outer .at4-recommended.ats-dark .at4-recommended-item .at4-recommended-item-caption small{color:#fff}.at4-recommended-toaster .at-logo{margin:0 0 3px 20px;text-align:left}.at4-recommended-toaster .at-logo .at4-logo-container.at-sponsored-logo{position:relative}.at4-toaster-outer .at4-recommended-item .sponsored-label{text-align:right;font-size:10px;color:#666;float:right;position:fixed;bottom:6px;right:20px;top:initial;z-index:99999}</style><style type="text/css">.at4-whatsnext{position:fixed;bottom:0!important;right:0;background:#fff;border:1px solid #c5c5c5;margin:-1px;width:390px;height:90pt;overflow:hidden;font-size:9pt;font-weight:400;color:#000;z-index:1800000000}.at4-whatsnext a{color:#666}.at4-whatsnext .at-whatsnext-content{height:90pt;position:relative}.at4-whatsnext .at-whatsnext-content .at-branding{position:absolute;bottom:15px;right:10px;padding-left:9px;text-decoration:none;line-height:10px;font-family:helvetica,arial,sans-serif;font-size:10px;color:#666}.at4-whatsnext .at-whatsnext-content .at-whatsnext-content-inner{position:absolute;top:15px;right:20px;bottom:15px;left:140px;text-align:left;height:105px}.at4-whatsnext .at-whatsnext-content-inner a{display:inline-block}.at4-whatsnext .at-whatsnext-content-inner div.at-h6{text-align:left;margin:0;padding:0 0 3px;font-size:11px;color:#666;cursor:default}.at4-whatsnext .at-whatsnext-content .at-h3{text-align:left;margin:5px 0;padding:0;line-height:1.2em;font-weight:400;font-size:14px;height:3pc}.at4-whatsnext .at-whatsnext-content-inner a:link,.at4-whatsnext .at-whatsnext-content-inner a:visited{text-decoration:none;font-weight:400;color:#464646}.at4-whatsnext .at-whatsnext-content-inner a:hover{color:#000}.at4-whatsnext .at-whatsnext-content-inner small{position:absolute;bottom:15px;line-height:10px;font-size:11px;color:#666;cursor:default;text-align:left}.at4-whatsnext .at-whatsnext-content .at-whatsnext-content-img{position:absolute;top:0;left:0;width:90pt;height:90pt;overflow:hidden}.at4-whatsnext .at-whatsnext-content .at-whatsnext-content-img img{position:absolute;top:0;left:0;max-height:none;max-width:none}.at4-whatsnext .at-whatsnext-close-control{position:absolute;top:0;right:0;display:block;width:20px;height:20px;line-height:20px;margin:0 5px 0 0;padding:0;text-indent:-9999em}.at-whatsnext-open-control{position:fixed;right:0;bottom:0;z-index:100020}.at4-whatsnext.ats-dark{background:#262b30}.at4-whatsnext.ats-dark .at-whatsnext-content .at-h3,.at4-whatsnext.ats-dark .at-whatsnext-content a.at4-logo:hover,.at4-whatsnext.ats-dark .at-whatsnext-content-inner a:link,.at4-whatsnext.ats-dark .at-whatsnext-content-inner a:visited{color:#fff}.at4-whatsnext.ats-light{background:#fff}.at4-whatsnext.ats-gray{background:#f2f2f2}.at4-whatsnext.at-whatsnext-nophoto{width:270px}.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content-img{display:none}.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content .at-whatsnext-content-inner{top:15px;right:0;left:20px}.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content .at-whatsnext-content-inner.addthis_32x32_style{top:0;right:0;left:0;padding:45px 20px 0;font-size:20px}.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content .at-whatsnext-content-inner .at4-icon,.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content .at-whatsnext-content-inner .at4-icon-fw,.at4-whatsnext.at-whatsnext-nophoto .at-whatsnext-content .at-whatsnext-content-inner .whatsnext-msg{vertical-align:middle}.at-whatsnext-img,.at-whatsnext-img-lnk{position:absolute;left:0}</style><style type="text/css">.at4-whatsnextmobile{position:fixed;bottom:0;right:0;left:0;background:#fff;z-index:9999998;height:170px;font-size:28px}.at4-whatsnextmobile .col-2{height:100%;font-size:1em}.at4-whatsnextmobile .col-2:first-child{max-width:200px;display:inline-block;float:left}.at4-whatsnextmobile .col-2:last-child{position:absolute;left:200px;right:50px;top:0;bottom:0;display:inline-block}.at4-whatsnextmobile .at-whatsnext-content-inner{font-size:1em}.at4-whatsnextmobile .at-whatsnext-content-img img{height:100%;width:100%}.at4-whatsnextmobile .at-close-control{font-size:1em;position:absolute;top:0;right:0;width:50px;height:50px}.at4-whatsnextmobile .at-close-control button{width:100%;height:100%;font-size:1em;font-weight:400;text-decoration:none;opacity:.5;padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.at4-whatsnextmobile .at-h3,.at4-whatsnextmobile .at-h6{font-size:1em;margin:0;color:#a1a1a1;margin-left:2.5%;margin-top:25px}.at4-whatsnextmobile .at-h3{font-size:1em;line-height:1em;font-weight:500;height:50%}.at4-whatsnextmobile .at-h3 a{font-size:1em;text-decoration:none}.at4-whatsnextmobile .at-h6{font-size:.8em;line-height:.8em;font-weight:500}.at4-whatsnextmobile .footer{position:absolute;bottom:2px;left:200px;right:0;padding-left:2.5%;font-size:1em;line-height:.6em}.at4-whatsnextmobile .footer small{font-size:.6em;color:#a1a1a1}.at4-whatsnextmobile .footer small:first-child{margin-right:5%;float:left}.at4-whatsnextmobile .footer small:last-child{margin-right:2.5%;float:right}.at4-whatsnextmobile .at-whatsnext-content{height:100%}.at4-whatsnextmobile.ats-dark{background:#262b30;color:#fff}.at4-whatsnextmobile .at-close-control button{color:#bfbfbf}.at4-whatsnextmobile.ats-dark a:link,.at4-whatsnextmobile.ats-dark a:visited{color:#fff}.at4-whatsnextmobile.ats-gray{background:#f2f2f2;color:#262b30}.at4-whatsnextmobile.ats-light{background:#fff;color:#262b30}.at4-whatsnextmobile.ats-dark .footer a:link,.at4-whatsnextmobile.ats-dark .footer a:visited,.at4-whatsnextmobile.ats-gray .footer a:link,.at4-whatsnextmobile.ats-gray .footer a:visited,.at4-whatsnextmobile.ats-light .footer a:link,.at4-whatsnextmobile.ats-light .footer a:visited{color:#a1a1a1}.at4-whatsnextmobile.ats-gray a:link,.at4-whatsnextmobile.ats-gray a:visited,.at4-whatsnextmobile.ats-light a:link,.at4-whatsnextmobile.ats-light a:visited{color:#262b30}@media only screen and (min-device-width:320px) and (max-device-width:480px){.at4-whatsnextmobile{height:85px;font-size:14px}.at4-whatsnextmobile .col-2:first-child{width:75pt}.at4-whatsnextmobile .col-2:last-child{right:25px;left:75pt}.at4-whatsnextmobile .footer{left:75pt}.at4-whatsnextmobile .at-close-control{width:25px;height:25px}.at4-whatsnextmobile .at-h3,.at4-whatsnextmobile .at-h6{margin-top:12.5px}}</style><style type="text/css">.at-custom-mobile-bar{left:0;right:0;width:100%;height:56px;position:fixed;text-align:center;z-index:100020;background:#fff;overflow:hidden;box-shadow:0 0 10px 0 rgba(0,0,0,.2);font:initial;line-height:normal;top:auto;bottom:0}.at-custom-mobile-bar.at-custom-mobile-bar-zindex-hide{z-index:-1!important}.at-custom-mobile-bar.atss-top{top:0;bottom:auto}.at-custom-mobile-bar.atss-bottom{top:auto;bottom:0}.at-custom-mobile-bar .at-custom-mobile-bar-btns{display:inline-block;text-align:center}.at-custom-mobile-bar .at-custom-mobile-bar-counter,.at-custom-mobile-bar .at-share-btn{margin-top:4px}.at-custom-mobile-bar .at-share-btn{display:inline-block;text-decoration:none;transition:none;box-sizing:content-box}.at-custom-mobile-bar .at-custom-mobile-bar-counter{font-family:Helvetica neue,arial;vertical-align:top;margin-left:4px;margin-right:4px;display:inline-block}.at-custom-mobile-bar .at-custom-mobile-bar-count{font-size:26px;line-height:1.25em;color:#222}.at-custom-mobile-bar .at-custom-mobile-bar-text{font-size:9pt;line-height:1.25em;color:#888;letter-spacing:1px}.at-custom-mobile-bar .at-icon-wrapper{text-align:center;height:3pc;width:3pc;margin:0 4px}.at-custom-mobile-bar .at-icon{vertical-align:top;margin:8px;width:2pc;height:2pc}.at-custom-mobile-bar.at-shfs-medium{height:3pc}.at-custom-mobile-bar.at-shfs-medium .at-custom-mobile-bar-counter{margin-top:6px}.at-custom-mobile-bar.at-shfs-medium .at-custom-mobile-bar-count{font-size:18px}.at-custom-mobile-bar.at-shfs-medium .at-custom-mobile-bar-text{font-size:10px}.at-custom-mobile-bar.at-shfs-medium .at-icon-wrapper{height:40px;width:40px}.at-custom-mobile-bar.at-shfs-medium .at-icon{margin:6px;width:28px;height:28px}.at-custom-mobile-bar.at-shfs-small{height:40px}.at-custom-mobile-bar.at-shfs-small .at-custom-mobile-bar-counter{margin-top:3px}.at-custom-mobile-bar.at-shfs-small .at-custom-mobile-bar-count{font-size:1pc}.at-custom-mobile-bar.at-shfs-small .at-custom-mobile-bar-text{font-size:10px}.at-custom-mobile-bar.at-shfs-small .at-icon-wrapper{height:2pc;width:2pc}.at-custom-mobile-bar.at-shfs-small .at-icon{margin:4px;width:24px;height:24px}</style><style type="text/css">.at-custom-sidebar{top:20%;width:58px;position:fixed;text-align:center;z-index:100020;background:#fff;overflow:hidden;box-shadow:0 0 10px 0 rgba(0,0,0,.2);font:initial;line-height:normal;top:auto;bottom:0}.at-custom-sidebar.at-custom-sidebar-zindex-hide{z-index:-1!important}.at-custom-sidebar.atss-left{left:0;right:auto;float:left;border-radius:0 4px 4px 0}.at-custom-sidebar.atss-right{left:auto;right:0;float:right;border-radius:4px 0 0 4px}.at-custom-sidebar .at-custom-sidebar-btns{display:inline-block;text-align:center;padding-top:4px}.at-custom-sidebar .at-custom-sidebar-counter{margin-bottom:8px}.at-custom-sidebar .at-share-btn{display:inline-block;text-decoration:none;transition:none;box-sizing:content-box}.at-custom-sidebar .at-custom-sidebar-counter{font-family:Helvetica neue,arial;vertical-align:top;margin-left:4px;margin-right:4px;display:inline-block}.at-custom-sidebar .at-custom-sidebar-count{font-size:21px;line-height:1.25em;color:#222}.at-custom-sidebar .at-custom-sidebar-text{font-size:10px;line-height:1.25em;color:#888;letter-spacing:1px}.at-custom-sidebar .at-icon-wrapper{text-align:center;margin:0 4px}.at-custom-sidebar .at-icon{vertical-align:top;margin:9px;width:2pc;height:2pc}.at-custom-sidebar .at-icon-wrapper{position:relative}.at-custom-sidebar .at4-share-count,.at-custom-sidebar .at4-share-count-container{line-height:1pc;font-size:10px}.at-custom-sidebar .at4-share-count{text-indent:0;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-weight:200;width:100%;height:1pc}.at-custom-sidebar .at4-share-count-anchor .at-icon{margin-top:3px}.at-custom-sidebar .at4-share-count-container{position:absolute;left:0;right:auto;top:auto;bottom:0;width:100%;color:#fff;background:inherit}</style><style type="text/css">.at-image-sharing-mobile-icon{position:absolute;background:#000 url(https://s7.addthis.com/static/44a36d35bafef33aa9455b7d3039a771.png) no-repeat top center;background-color:rgba(0,0,0,.9);background-image:url(https://s7.addthis.com/static/10db525181ee0bbe1a515001be1c7818.svg),none;border-radius:3px;width:50px;height:40px;top:-9999px;left:-9999px}.at-image-sharing-tool{display:block;position:absolute;text-align:center;z-index:9001;background:none;overflow:hidden;top:-9999px;left:-9999px;font:initial;line-height:0}.at-image-sharing-tool.addthis-animated{animation-duration:.15s}.at-image-sharing-tool.at-orientation-vertical .at-share-btn{display:block}.at-image-sharing-tool.at-orientation-horizontal .at-share-btn{display:inline-block}.at-image-sharing-tool.at-image-sharing-tool-size-big .at-icon{width:43px;height:43px}.at-image-sharing-tool.at-image-sharing-tool-size-mobile .at-share-btn{margin:0!important}.at-image-sharing-tool.at-image-sharing-tool-size-mobile .at-icon-wrapper{height:60px;width:100%;border-radius:0!important}.at-image-sharing-tool.at-image-sharing-tool-size-mobile .at-icon{max-width:100%;height:54px!important;width:54px!important}.at-image-sharing-tool .at-custom-shape.at-image-sharing-tool-btns{margin-right:8px;margin-bottom:8px}.at-image-sharing-tool .at-custom-shape .at-share-btn{margin-top:8px;margin-left:8px}.at-image-sharing-tool .at-share-btn{line-height:0;text-decoration:none;transition:none;box-sizing:content-box}.at-image-sharing-tool .at-icon-wrapper{text-align:center;height:100%;width:100%}.at-image-sharing-tool .at-icon{vertical-align:top;width:2pc;height:2pc;margin:3px}</style><style type="text/css">.at-expanding-share-button{box-sizing:border-box;position:fixed;z-index:9999}.at-expanding-share-button[data-position=bottom-right]{bottom:10px;right:10px}.at-expanding-share-button[data-position=bottom-right] .at-expanding-share-button-toggle-bg,.at-expanding-share-button[data-position=bottom-right] .at-expanding-share-button-toggle-btn[data-name]:after,.at-expanding-share-button[data-position=bottom-right] .at-icon-wrapper,.at-expanding-share-button[data-position=bottom-right] [data-name]:after{float:right}.at-expanding-share-button[data-position=bottom-right] [data-name]:after{margin-right:10px}.at-expanding-share-button[data-position=bottom-right] .at-expanding-share-button-toggle-btn[data-name]:after{margin-right:5px}.at-expanding-share-button[data-position=bottom-right] .at-icon-wrapper{margin-right:-3px}.at-expanding-share-button[data-position=bottom-left]{bottom:10px;left:10px}.at-expanding-share-button[data-position=bottom-left] .at-expanding-share-button-toggle-bg,.at-expanding-share-button[data-position=bottom-left] .at-expanding-share-button-toggle-btn[data-name]:after,.at-expanding-share-button[data-position=bottom-left] .at-icon-wrapper,.at-expanding-share-button[data-position=bottom-left] [data-name]:after{float:left}.at-expanding-share-button[data-position=bottom-left] [data-name]:after{margin-left:10px}.at-expanding-share-button[data-position=bottom-left] .at-expanding-share-button-toggle-btn[data-name]:after{margin-left:5px}.at-expanding-share-button *,.at-expanding-share-button :after,.at-expanding-share-button :before{box-sizing:border-box}.at-expanding-share-button .at-expanding-share-button-services-list{display:none;list-style:none;margin:0 5px;overflow:visible;padding:0}.at-expanding-share-button .at-expanding-share-button-services-list>li{display:block;height:45px;position:relative;overflow:visible}.at-expanding-share-button .at-expanding-share-button-toggle-btn,.at-expanding-share-button .at-share-btn{transition:.1s;text-decoration:none}.at-expanding-share-button .at-share-btn{display:block;height:40px;padding:0 3px 0 0}.at-expanding-share-button .at-expanding-share-button-toggle-btn{position:relative;overflow:auto}.at-expanding-share-button .at-expanding-share-button-toggle-btn.at-expanding-share-button-hidden[data-name]:after{display:none}.at-expanding-share-button .at-expanding-share-button-toggle-bg{box-shadow:0 2px 4px 0 rgba(0,0,0,.3);border-radius:50%;position:relative}.at-expanding-share-button .at-expanding-share-button-toggle-bg>span{background-image:url("data:image/svg+xml,%3Csvg%20width%3D%2232px%22%20height%3D%2232px%22%20viewBox%3D%220%200%2032%2032%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3Eshare%3C%2Ftitle%3E%3Cg%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23FFFFFF%22%3E%3Cpath%20d%3D%22M26%2C13.4285714%20C26%2C13.6220248%2025.9293162%2C13.7894338%2025.7879464%2C13.9308036%20L20.0736607%2C19.6450893%20C19.932291%2C19.786459%2019.7648819%2C19.8571429%2019.5714286%2C19.8571429%20C19.3779752%2C19.8571429%2019.2105662%2C19.786459%2019.0691964%2C19.6450893%20C18.9278267%2C19.5037195%2018.8571429%2C19.3363105%2018.8571429%2C19.1428571%20L18.8571429%2C16.2857143%20L16.3571429%2C16.2857143%20C15.6279725%2C16.2857143%2014.9750773%2C16.3080355%2014.3984375%2C16.3526786%20C13.8217977%2C16.3973217%2013.2488868%2C16.477306%2012.6796875%2C16.5926339%20C12.1104882%2C16.7079619%2011.6157015%2C16.8660704%2011.1953125%2C17.0669643%20C10.7749235%2C17.2678581%2010.3824423%2C17.5264121%2010.0178571%2C17.8426339%20C9.65327199%2C18.1588557%209.35565592%2C18.534596%209.125%2C18.9698661%20C8.89434408%2C19.4051361%208.71391434%2C19.9203839%208.58370536%2C20.515625%20C8.45349637%2C21.1108661%208.38839286%2C21.7842224%208.38839286%2C22.5357143%20C8.38839286%2C22.9449425%208.40699386%2C23.4025272%208.44419643%2C23.9084821%20C8.44419643%2C23.9531252%208.45349693%2C24.0405499%208.47209821%2C24.1707589%20C8.4906995%2C24.3009679%208.5%2C24.3995532%208.5%2C24.4665179%20C8.5%2C24.5781256%208.46837829%2C24.6711306%208.40513393%2C24.7455357%20C8.34188956%2C24.8199408%208.25446484%2C24.8571429%208.14285714%2C24.8571429%20C8.02380893%2C24.8571429%207.9196433%2C24.7938994%207.83035714%2C24.6674107%20C7.77827355%2C24.6004461%207.72991094%2C24.5186017%207.68526786%2C24.421875%20C7.64062478%2C24.3251483%207.59040206%2C24.2135423%207.53459821%2C24.0870536%20C7.47879436%2C23.9605648%207.43973225%2C23.87128%207.41741071%2C23.8191964%20C6.47246551%2C21.6986501%206%2C20.0208395%206%2C18.7857143%20C6%2C17.3050521%206.19717065%2C16.0662252%206.59151786%2C15.0691964%20C7.79688103%2C12.0706695%2011.0520568%2C10.5714286%2016.3571429%2C10.5714286%20L18.8571429%2C10.5714286%20L18.8571429%2C7.71428571%20C18.8571429%2C7.52083237%2018.9278267%2C7.35342333%2019.0691964%2C7.21205357%20C19.2105662%2C7.07068382%2019.3779752%2C7%2019.5714286%2C7%20C19.7648819%2C7%2019.932291%2C7.07068382%2020.0736607%2C7.21205357%20L25.7879464%2C12.9263393%20C25.9293162%2C13.067709%2026%2C13.2351181%2026%2C13.4285714%20L26%2C13.4285714%20Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-position:center center;background-repeat:no-repeat;transition:transform .4s ease;border-radius:50%;display:block}.at-expanding-share-button .at-icon-wrapper{box-shadow:0 2px 4px 0 rgba(0,0,0,.3);border-radius:50%;display:inline-block;height:40px;line-height:40px;text-align:center;width:40px}.at-expanding-share-button .at-icon{display:inline-block;height:34px;margin:3px 0;vertical-align:top;width:34px}.at-expanding-share-button [data-name]:after{box-shadow:0 2px 4px 0 rgba(0,0,0,.3);transform:translate(0, -50%);transition:.4s;background-color:#fff;border-radius:3px;color:#666;content:attr(data-name);font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:9pt;line-height:9pt;font-weight:500;opacity:0;padding:3px 5px;position:relative;top:20px;white-space:nowrap}.at-expanding-share-button.at-expanding-share-button-show-icons .at-expanding-share-button-services-list{display:block}.at-expanding-share-button.at-expanding-share-button-animate-in .at-expanding-share-button-toggle-bg>span{transform:rotate(270deg);background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cg%3E%3Cpath%20d%3D%22M18%2014V8h-4v6H8v4h6v6h4v-6h6v-4h-6z%22%20fill-rule%3D%22evenodd%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-position:center center;background-repeat:no-repeat}.at-expanding-share-button.at-expanding-share-button-animate-in [data-name]:after{opacity:1}.at-expanding-share-button.at-hide-label [data-name]:after{display:none}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle{height:50px}.at-expanding-share-button.at-expanding-share-button-desktop .at-icon-wrapper:hover{box-shadow:0 2px 5px 0 rgba(0,0,0,.5)}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-bg{height:50px;line-height:50px;width:50px}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-bg>span{height:50px;width:50px}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-bg:after{box-shadow:0 2px 5px 0 rgba(0,0,0,.2);transition:opacity .2s ease;border-radius:50%;content:'';height:100%;opacity:0;position:absolute;top:0;left:0;width:100%}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-bg:hover:after{opacity:1}.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-btn[data-name]:after{top:25px}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-services-list{margin:0}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle-btn,.at-expanding-share-button.at-expanding-share-button-mobile .at-share-btn{outline:0}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle{height:40px;-webkit-tap-highlight-color:transparent}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle-bg,.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle-bg span{height:40px;line-height:40px;width:40px}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-click-flash{transform:scale(0);transition:transform ease,opacity ease-in;background-color:hsla(0,0%,100%,.3);border-radius:50%;height:40px;opacity:1;position:absolute;width:40px;z-index:10000}.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-click-flash.at-expanding-share-button-click-flash-animate{transform:scale(1);opacity:0}.at-expanding-share-button.at-expanding-share-button-mobile+.at-expanding-share-button-mobile-overlay{transition:opacity ease;bottom:0;background-color:hsla(0,0%,87%,.7);display:block;height:auto;left:0;opacity:0;position:fixed;right:0;top:0;width:auto;z-index:9998}.at-expanding-share-button.at-expanding-share-button-mobile+.at-expanding-share-button-mobile-overlay.at-expanding-share-button-hidden{height:0;width:0;z-index:-10000}.at-expanding-share-button.at-expanding-share-button-mobile.at-expanding-share-button-animate-in+.at-expanding-share-button-mobile-overlay{transition:opacity ease;opacity:1}</style><style type="text/css">.at-tjin-element .at300b,.at-tjin-element .at300m{display:inline-block;width:auto;padding:0;margin:0 2px 5px;outline-offset:-1px;transition:all .2s ease-in-out}.at-tjin-element .at300b:focus,.at-tjin-element .at300b:hover,.at-tjin-element .at300m:focus,.at-tjin-element .at300m:hover{transform:translateY(-4px)}.at-tjin-element .addthis_tjin_label{display:none}.at-tjin-element .addthis_vertical_style .at300b,.at-tjin-element .addthis_vertical_style .at300m{display:block}.at-tjin-element .addthis_vertical_style .at300b .addthis_tjin_label,.at-tjin-element .addthis_vertical_style .at300b .at-icon-wrapper,.at-tjin-element .addthis_vertical_style .at300m .addthis_tjin_label,.at-tjin-element .addthis_vertical_style .at300m .at-icon-wrapper{display:inline-block;vertical-align:middle;margin-right:5px}.at-tjin-element .addthis_vertical_style .at300b:focus,.at-tjin-element .addthis_vertical_style .at300b:hover,.at-tjin-element .addthis_vertical_style .at300m:focus,.at-tjin-element .addthis_vertical_style .at300m:hover{transform:none}.at-tjin-element .at-tjin-btn{margin:0 5px 5px 0;padding:0;outline-offset:-1px;display:inline-block;box-sizing:content-box;transition:all .2s ease-in-out}.at-tjin-element .at-tjin-btn:focus,.at-tjin-element .at-tjin-btn:hover{transform:translateY(-4px)}.at-tjin-element .at-tjin-title{margin:0 0 15px}</style><style type="text/css">#addthissmartlayerscssready{color:#bada55!important}.addthis-smartlayers,div#at4-follow,div#at4-share,div#at4-thankyou,div#at4-whatsnext{padding:0;margin:0}#at4-follow-label,#at4-share-label,#at4-whatsnext-label,.at4-recommended-label.hidden{padding:0;border:none;background:none;position:absolute;top:0;left:0;height:0;width:0;overflow:hidden;text-indent:-9999em}.addthis-smartlayers .at4-arrow:hover{cursor:pointer}.addthis-smartlayers .at4-arrow:after,.addthis-smartlayers .at4-arrow:before{content:none}a.at4-logo{background:url(data:image/gif;base64,R0lGODlhBwAHAJEAAP9uQf///wAAAAAAACH5BAkKAAIALAAAAAAHAAcAAAILFH6Ge8EBH2MKiQIAOw==) no-repeat left center}.at4-minimal a.at4-logo{background:url(data:image/gif;base64,R0lGODlhBwAHAJEAAP9uQf///wAAAAAAACH5BAkKAAIALAAAAAAHAAcAAAILFH6Ge8EBH2MKiQIAOw==) no-repeat left center!important}button.at4-closebutton{position:absolute;top:0;right:0;padding:0;margin-right:10px;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;font-size:19px;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2}button.at4-closebutton:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.5}div.at4-arrow{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAoCAYAAABpYH0BAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAV1JREFUeNrsmesOgyAMhQfxwfrofTM3E10ME2i5Oeppwr9a5OMUCrh1XV+wcvNAAIAA+BiAzrmtUWln27dbjEcC3AdODfo0BdEPhmcO4nIDvDNELi2jggk4/k8dT7skfeKzWIEd4VUpMQKvNB7X+OZSmAZkATWC1xvipbpnLmOosbJZC08CkAeA4E6qFUEMwLAGnlSBPCE8lW8CYnZTcimH2HoT7kSFOx5HBmCnDhTIu1p5s98G+QZrxGPhZVMY1vgyAQaAAAiAAAgDQACcBOD+BvJtBWfRy7NpJK5tBe4FNzXokywV734wPHMQlxvgnSGyNoUP/2ACjv/7iSeYKO3YWKzAjvCqlBiBVxqPa3ynexNJwOsN8TJbzL6JNIYYXWpMv4lIIAZgWANPqkCeEJ7KNwExu8lpLlSpAVQarO77TyKdBsyRPuwV0h0gmoGnTWFYzVkYBoAA+I/2FmAAt6+b5XM9mFkAAAAASUVORK5CYII=);background-repeat:no-repeat;width:20px;height:20px;margin:0;padding:0;overflow:hidden;text-indent:-9999em;text-align:left;cursor:pointer}#at4-recommendedpanel-outer-container .at4-arrow.at-right,div.at4-arrow.at-right{background-position:-20px 0}#at4-recommendedpanel-outer-container .at4-arrow.at-left,div.at4-arrow.at-left{background-position:0 0}div.at4-arrow.at-down{background-position:-60px 0}div.at4-arrow.at-up{background-position:-40px 0}.ats-dark div.at4-arrow.at-right{background-position:-20px -20px}.ats-dark div.at4-arrow.at-left{background-position:0 -20px}.ats-dark div.at4-arrow.at-down{background-position:-60px -20px}.ats-dark div.at4-arrow.at-up{background-position:-40px -20}.at4-opacity-hidden{opacity:0!important}.at4-opacity-visible{opacity:1!important}.at4-visually-hidden{position:absolute;clip:rect(1px,1px,1px,1px);padding:0;border:0;overflow:hidden}.at4-hidden-off-screen,.at4-hidden-off-screen *{position:absolute!important;top:-9999px!important;left:-9999px!important}.at4-show{display:block!important;opacity:1!important}.at4-show-content{opacity:1!important;visibility:visible}.at4-hide{display:none!important;opacity:0!important}.at4-hide-content{opacity:0!important;visibility:hidden}.at4-visible{display:block!important;opacity:0!important}.at-wordpress-hide{display:none!important;opacity:0!important}.addthis-animated{animation-fill-mode:both;animation-timing-function:ease-out;animation-duration:.3s}.slideInDown.addthis-animated,.slideInLeft.addthis-animated,.slideInRight.addthis-animated,.slideInUp.addthis-animated,.slideOutDown.addthis-animated,.slideOutLeft.addthis-animated,.slideOutRight.addthis-animated,.slideOutUp.addthis-animated{animation-duration:.4s}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}@keyframes fadeInUp{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.fadeInUp{animation-name:fadeInUp}@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}.fadeInDown{animation-name:fadeInDown}@keyframes fadeInLeft{0%{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}.fadeInLeft{animation-name:fadeInLeft}@keyframes fadeInRight{0%{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}.fadeInRight{animation-name:fadeInRight}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fadeOut{animation-name:fadeOut}@keyframes fadeOutUp{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-20px)}}.fadeOutUp{animation-name:fadeOutUp}@keyframes fadeOutDown{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(20px)}}.fadeOutDown{animation-name:fadeOutDown}@keyframes fadeOutLeft{0%{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(-20px)}}.fadeOutLeft{animation-name:fadeOutLeft}@keyframes fadeOutRight{0%{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(20px)}}.fadeOutRight{animation-name:fadeOutRight}@keyframes slideInUp{0%{transform:translateY(1500px)}0%,to{opacity:1}to{transform:translateY(0)}}.slideInUp{animation-name:slideInUp}.slideInUp.addthis-animated{animation-duration:.4s}@keyframes slideInDown{0%{transform:translateY(-850px)}0%,to{opacity:1}to{transform:translateY(0)}}.slideInDown{animation-name:slideInDown}@keyframes slideOutUp{0%{transform:translateY(0)}0%,to{opacity:1}to{transform:translateY(-250px)}}.slideOutUp{animation-name:slideOutUp}@keyframes slideOutUpFast{0%{transform:translateY(0)}0%,to{opacity:1}to{transform:translateY(-1250px)}}#at4m-menu.slideOutUp{animation-name:slideOutUpFast}@keyframes slideOutDown{0%{transform:translateY(0)}0%,to{opacity:1}to{transform:translateY(350px)}}.slideOutDown{animation-name:slideOutDown}@keyframes slideOutDownFast{0%{transform:translateY(0)}0%,to{opacity:1}to{transform:translateY(1250px)}}#at4m-menu.slideOutDown{animation-name:slideOutDownFast}@keyframes slideInLeft{0%{opacity:0;transform:translateX(-850px)}to{transform:translateX(0)}}.slideInLeft{animation-name:slideInLeft}@keyframes slideInRight{0%{opacity:0;transform:translateX(1250px)}to{transform:translateX(0)}}.slideInRight{animation-name:slideInRight}@keyframes slideOutLeft{0%{transform:translateX(0)}to{opacity:0;transform:translateX(-350px)}}.slideOutLeft{animation-name:slideOutLeft}@keyframes slideOutRight{0%{transform:translateX(0)}to{opacity:0;transform:translateX(350px)}}.slideOutRight{animation-name:slideOutRight}.at4win{margin:0 auto;background:#fff;border:1px solid #ebeced;width:25pc;box-shadow:0 0 10px rgba(0,0,0,.3);border-radius:8px;font-family:helvetica neue,helvetica,arial,sans-serif;text-align:left;z-index:9999}.at4win .at4win-header{position:relative;border-bottom:1px solid #f2f2f2;background:#fff;height:49px;-webkit-border-top-left-radius:8px;-webkit-border-top-right-radius:8px;-moz-border-radius-topleft:8px;-moz-border-radius-topright:8px;border-top-left-radius:8px;border-top-right-radius:8px;cursor:default}.at4win .at4win-header .at-h3,.at4win .at4win-header h3{height:49px;line-height:49px;margin:0 50px 0 0;padding:1px 0 0;margin-left:20px;font-family:helvetica neue,helvetica,arial,sans-serif;font-size:1pc;font-weight:700;text-shadow:0 1px #fff;color:#333}.at4win .at4win-header .at-h3 img,.at4win .at4win-header h3 img{display:inline-block;margin-right:4px}.at4win .at4win-header .at4-close{display:block;position:absolute;top:0;right:0;background:url("data:image/gif;base64,R0lGODlhFAAUAIABAAAAAP///yH5BAEAAAEALAAAAAAUABQAAAIzBIKpG+YMm5Enpodw1HlCfnkKOIqU1VXk55goVb2hi7Y0q95lfG70uurNaqLgTviyyUoFADs=") no-repeat center center;background-repeat:no-repeat;background-position:center center;border-left:1px solid #d2d2d1;width:49px;height:49px;line-height:49px;overflow:hidden;text-indent:-9999px;text-shadow:none;cursor:pointer;opacity:.5;border:0;transition:opacity .15s ease-in}.at4win .at4win-header .at4-close::-moz-focus-inner{border:0;padding:0}.at4win .at4win-header .at4-close:hover{opacity:1;background-color:#ebeced;border-top-right-radius:7px}.at4win .at4win-content{position:relative;background:#fff;min-height:220px}#at4win-footer{position:relative;background:#fff;border-top:1px solid #d2d2d1;-webkit-border-bottom-right-radius:8px;-webkit-border-bottom-left-radius:8px;-moz-border-radius-bottomright:8px;-moz-border-radius-bottomleft:8px;border-bottom-right-radius:8px;border-bottom-left-radius:8px;height:11px;line-height:11px;padding:5px 20px;font-size:11px;color:#666;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box}#at4win-footer a{margin-right:10px;text-decoration:none;color:#666}#at4win-footer a:hover{text-decoration:none;color:#000}#at4win-footer a.at4-logo{top:5px;padding-left:10px}#at4win-footer a.at4-privacy{position:absolute;top:5px;right:10px;padding-right:14px}.at4win.ats-dark{border-color:#555;box-shadow:none}.at4win.ats-dark .at4win-header{background:#1b1b1b;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;border-top-left-radius:6px;border-top-right-radius:6px}.at4win.ats-dark .at4win-header .at4-close{background:url("data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTEvMTMvMTKswDp5AAAAd0lEQVQ4jb2VQRLAIAgDE///Z3qqY1FAhalHMCsCIkVEAIAkkVgvp2lDBgYAnAyHkWotLccNrEd4A7X2TqIdqLfnWBAdaF5rJdyJfjtPH5GT37CaGhoVq3nOm/XflUuLUto2pY1d+vRKh0Pp+MrAVtDe2JkvYNQ+jVSEEFmOkggAAAAASUVORK5CYII=") no-repeat center center;background-image:url(https://s7.addthis.com/static/fb08f6d50887bd0caacc86a62bcdcf68.svg),none;border-color:#333}.at4win.ats-dark .at4win-header .at4-close:hover{background-color:#000}.at4win.ats-dark .at4win-header .at-h3,.at4win.ats-dark .at4win-header h3{color:#fff;text-shadow:0 1px #000}.at4win.ats-gray .at4win-header{background:#fff;border-color:#d2d2d1;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;border-top-left-radius:6px;border-top-right-radius:6px}.at4win.ats-gray .at4win-header a.at4-close{border-color:#d2d2d1}.at4win.ats-gray .at4win-header a.at4-close:hover{background-color:#ebeced}.at4win.ats-gray #at4win-footer{border-color:#ebeced}.at4win .clear{clear:both}.at4win ::selection{background:#fe6d4c;color:#fff}.at4win ::-moz-selection{background:#fe6d4c;color:#fff}.at4-icon-fw{display:inline-block;background-repeat:no-repeat;background-position:0 0;margin:0 5px 0 0;overflow:hidden;text-indent:-9999em;cursor:pointer;padding:0;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%}.at44-follow-container a.aticon{height:2pc;margin:0 5px 5px 0}.at44-follow-container .at4-icon-fw{margin:0}</style><link id="fs-css-1" rel="stylesheet" type="text/css" href="./Download entire World Economic Outlook database, October 2020_files/main.css"></head>
+
+<body class="">
+    <a href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October/download-entire-database#" id="scroll" style="display: inline;"><span></span></a>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    
+    <a name="top"></a>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- BEGIN NOINDEX -->
+    <!--googleoff: all-->
+    
+
+
+
+    
+    <!--googleon: all-->
+    <!-- END NOINDEX -->
+    <div class="full-width-header">
+
+        <!-- BEGIN NOINDEX -->
+        <!-- BEGIN  NEW HEADER -->
+            <header id="header" class="main-header">
+                <div class="flex-container padded-vertical-20">
+
+                    <!-- Begin Social Links-->
+                    <div class="cell flex-third text-left ">
+                        <ul class="social-hz">
+<li><a href="http://www.twitter.com/imfnews" target="_blank" class="fab fa-twitter" title="Follow IMF Twitter"></a></li>
+<li><a href="https://www.facebook.com/International-Monetary-Fund-152292984850728/" class="fab fa-facebook-f" target="_blank" title="Follow IMF Facebook"></a></li>
+<li><a href="http://www.linkedin.com/company/international-monetary-fund" class="fab fa-linkedin-in" target="_blank" title="Follow IMF LinkedIn"></a></li>
+<li><a href="https://www.instagram.com/the_imf/" class="fab fa-instagram" target="_blank" title="Follow IMF Instagram"></a></li>
+<li><a href="http://www.youtube.com/imf" class="fab fa-youtube" target="_blank" title="Follow IMF Youtube"></a></li>
+<li><a href="https://www.imf.org/en/news/podcasts" class="far fa-podcast" title="IMF Podcasts"></a></li>
+<li><a href="http://www.flickr.com/imfphoto" class="fab fa-flickr" target="_blank" title="Follow IMF Flickr"></a></li>
+<li><a href="https://www.imf.org/external/cntpst/index.aspx" class="fas fa-envelope-open-text" title="Subscribe to IMF Emails"></a></li>
+<li><a href="https://www.imf.org/en/live" title="IMF Live" class="nav-img"><img src="./Download entire World Economic Outlook database, October 2020_files/imf-live-rgb-h.png" srcset="https://www.imf.org/-/media/Images/IMF/Live-Page/imf-live-rgb-h-svg.ashx" alt="IMF Live"></a></li>                        </ul>
+                    </div>
+                    <!-- End Solcial Links-->
+
+                    <div class="cell flex-third logo-cell">
+                            <a href="https://www.imf.org/external/index.htm">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/imf-seal-shadow-sep2019-update.png" srcset="/-/media/Images/IMF/Data/imf-seal-shadow-sep2019-update-svg.ashx" alt="International Monetary Fund" class="head-seal">
+                            </a>
+
+                            <a href="https://www.imf.org/external/index.htm">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/imf-logo-eng-sep2019-update.png" srcset="/-/media/Images/IMF/Data/imf-logo-eng-sep2019-update-svg.ashx" alt="International Monetary Fund" class="head-logo">
+                            </a>
+                    </div>
+
+                    
+                    
+
+
+
+<div class="cell flex-third text-right search-cell">
+
+    <!-- New Coveo Search Box -->
+    <link rel="stylesheet" href="./Download entire World Economic Outlook database, October 2020_files/CoveoFullSearch.min.css">
+    <link rel="stylesheet" href="./Download entire World Economic Outlook database, October 2020_files/CoveoForSitecore.css">
+    <script class="coveo-script" type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/CoveoJsSearch.Lazy.min.js"></script>
+    <!--
+    this is currently not working to take down the JS locally
+    <script class="coveo-script" type="text/javascript" src='/Assets/IMF/js/coveo-js/CoveoJsSearch.Lazy.min.js'></script>
+    -->
+    <script class="coveo-for-sitecore-script" type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/CoveoForSitecore.Lazy.min.js"></script>
+    <script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/en.js"></script>
+
+    <!-- Coveo Resources Configuration -->
+    <script type="text/javascript">
+        var endpointConfiguration = {
+            siteName: "imf",
+            restEndpointUri: "/coveo/rest"
+        };
+        if (typeof (CoveoForSitecore) !== "undefined") {
+            CoveoForSitecore.SearchEndpoint.configureSitecoreEndpoint(endpointConfiguration);
+        }
+    </script>
+
+    <!-- BEGIN desktop SEARCH -->
+    <!-- BEGIN GLOBAL SEARCH Box -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var searchboxElement = document.getElementById("imfcoveosearchbox");
+            searchboxElement.addEventListener("CoveoComponentInitialized", function () {
+                CoveoForSitecore.initSearchboxIfStandalone(searchboxElement, "/en/Search");
+            });
+        })
+    </script>
+
+    <div id="imfcoveosearchbox_container" data-prebind-maximum-age="currentMaximumAge" class="CoveoSearchInterface Coveostate CoveoComponentState CoveoComponentOptions CoveoQueryController CoveoDebug coveo-after-initialization" style="display: block;">
+
+        <div id="imfcoveosearchbox" class="CoveoSearchbox" data-enable-omnibox="true" data-prebind-maximum-age="currentMaximumAge" data-enable-query-suggest-addon="true" data-placeholder="Search" imf.org="">
+
+            <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function () {
+                    var componentId = "imfcoveosearchbox";
+                    var componentElement = document.getElementById(componentId);
+
+                    function showError(error) {
+                        console.error(error);
+                    }
+
+                    function areCoveoResourcesIncluded() {
+                        return typeof (Coveo) !== "undefined";
+                    }
+
+                    if (areCoveoResourcesIncluded()) {
+                        var event = document.createEvent("CustomEvent");
+                        event.initEvent("CoveoComponentInitialized", false, true);
+
+                        setTimeout(function () {
+                            componentElement.dispatchEvent(event);
+                        }, 0);
+                    } else {
+                        componentElement.classList.add("invalid");
+                        showError("The Coveo Resources component must be included in this page.");
+                    }
+                });
+            </script>
+            <div class="CoveoForSitecoreConfigureSearchHub" data-sc-search-hub="Search"></div>
+            <div class="CoveoAnalytics" data-search-hub="Search"></div>
+        <div class="CoveoOmnibox coveo-query-syntax-disabled magic-box" role="combobox" aria-expanded="false" aria-haspopup="listbox"><div class="magic-box-input"><div class="magic-box-underlay"><span class="magic-box-highlight-container"><span data-id="start" data-success="true"><span data-id="Any" data-success="true" data-value=""></span></span></span><span class="magic-box-ghost-text"></span></div><input spellcheck="false" form="coveo-dummy-form" role="combobox" autocomplete="off" aria-autocomplete="list" title="Insert a query. Press enter to send" aria-label="Search" placeholder="Search"><div class="magic-box-clear coveo-accessible-button" role="button" aria-label="Clear" tabindex="-1"><div class="magic-box-icon"><svg enable-background="new 0 0 13 13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg" class="magic-box-clear-svg"><g fill="currentColor"><path d="m7.881 6.501 4.834-4.834c.38-.38.38-1.001 0-1.381s-1.001-.38-1.381 0l-4.834 4.834-4.834-4.835c-.38-.38-1.001-.38-1.381 0s-.38 1.001 0 1.381l4.834 4.834-4.834 4.834c-.38.38-.38 1.001 0 1.381s1.001.38 1.381 0l4.834-4.834 4.834 4.834c.38.38 1.001.38 1.381 0s .38-1.001 0-1.381z"></path></g></svg></div></div></div><div class="magic-box-suggestions"></div></div><a class="CoveoSearchButton coveo-accessible-button" role="button" aria-label="Search" tabindex="0"><span class="coveo-search-button"><svg enable-background="new 0 0 20 20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="coveo-search-button-svg"><g fill="currentColor"><path class="coveo-magnifier-circle-svg" d="m8.368 16.736c-4.614 0-8.368-3.754-8.368-8.368s3.754-8.368 8.368-8.368 8.368 3.754 8.368 8.368-3.754 8.368-8.368 8.368m0-14.161c-3.195 0-5.793 2.599-5.793 5.793s2.599 5.793 5.793 5.793 5.793-2.599 5.793-5.793-2.599-5.793-5.793-5.793"></path><path d="m18.713 20c-.329 0-.659-.126-.91-.377l-4.552-4.551c-.503-.503-.503-1.318 0-1.82.503-.503 1.318-.503 1.82 0l4.552 4.551c.503.503.503 1.318 0 1.82-.252.251-.581.377-.91.377"></path></g></svg></span><span class="coveo-search-button-loading"><svg enable-background="new 0 0 18 18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="coveo-search-button-loading-svg"><g fill="currentColor"><path d="m16.76 8.051c-.448 0-.855-.303-.969-.757-.78-3.117-3.573-5.294-6.791-5.294s-6.01 2.177-6.79 5.294c-.134.537-.679.861-1.213.727-.536-.134-.861-.677-.728-1.212 1.004-4.009 4.594-6.809 8.731-6.809 4.138 0 7.728 2.8 8.73 6.809.135.536-.191 1.079-.727 1.213-.081.02-.162.029-.243.029z"></path><path d="m9 18c-4.238 0-7.943-3.007-8.809-7.149-.113-.541.234-1.071.774-1.184.541-.112 1.071.232 1.184.773.674 3.222 3.555 5.56 6.851 5.56s6.178-2.338 6.852-5.56c.113-.539.634-.892 1.184-.773.54.112.887.643.773 1.184-.866 4.142-4.57 7.149-8.809 7.149z"></path></g></svg></span></a></div>
+
+
+
+    <div aria-live="polite" class="coveo-visible-to-screen-reader-only"></div></div>
+
+    <!-- END GLOBAL SEARCH Box -->
+    <!-- end desktop SEARCH -->
+    <!-- BEGIN mobile SEARCH -->
+    <!-- BEGIN GLOBAL SEARCH Box -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var searchboxElement = document.getElementById("imfcoveosearchboxMobile");
+            searchboxElement.addEventListener("CoveoComponentInitialized", function () {
+                CoveoForSitecore.initSearchboxIfStandalone(searchboxElement, "/en/Search");
+            });
+        })
+    </script>
+
+    <div class="is-mobile">
+
+        <i class="far fa-search" aria-hidden="true"></i>
+
+        <div class="search-box">
+
+            <div id="imfcoveosearchboxMobile_container" data-prebind-maximum-age="currentMaximumAge" class="CoveoSearchInterface Coveostate CoveoComponentState CoveoComponentOptions CoveoQueryController coveo-after-initialization CoveoDebug" style="display: block;">
+
+                <div id="imfcoveosearchboxMobile" class="CoveoSearchbox" data-enable-omnibox="true" data-prebind-maximum-age="currentMaximumAge" data-placeholder="Search" imf.org="" data-add-search-button="true">
+
+
+                    <script type="text/javascript">
+                        document.addEventListener("DOMContentLoaded", function () {
+                            var componentId = "imfcoveosearchboxMobile";
+                            var componentElement = document.getElementById(componentId);
+
+                            function showError(error) {
+                                console.error(error);
+                            }
+
+                            function areCoveoResourcesIncluded() {
+                                return typeof (Coveo) !== "undefined";
+                            }
+
+                            if (areCoveoResourcesIncluded()) {
+                                var event = document.createEvent("CustomEvent");
+                                event.initEvent("CoveoComponentInitialized", false, true);
+
+                                setTimeout(function () {
+                                    componentElement.dispatchEvent(event);
+                                }, 0);
+                            } else {
+                                componentElement.classList.add("invalid");
+                                showError("The Coveo Resources component must be included in this page.");
+                            }
+                        });
+                    </script>
+                    <div class="CoveoForSitecoreConfigureSearchHub" data-sc-search-hub="Search"></div>
+                    <div class="CoveoAnalytics" data-search-hub="Search"></div>
+                <div class="CoveoOmnibox coveo-query-syntax-disabled magic-box" role="combobox" aria-expanded="false" aria-haspopup="listbox"><div class="magic-box-input"><div class="magic-box-underlay"><span class="magic-box-highlight-container"><span data-id="start" data-success="true"><span data-id="Any" data-success="true" data-value=""></span></span></span><span class="magic-box-ghost-text"></span></div><input spellcheck="false" form="coveo-dummy-form" role="combobox" autocomplete="off" aria-autocomplete="list" title="Insert a query. Press enter to send" aria-label="Search" placeholder="Search"><div class="magic-box-clear coveo-accessible-button" role="button" aria-label="Clear" tabindex="-1"><div class="magic-box-icon"><svg enable-background="new 0 0 13 13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg" class="magic-box-clear-svg"><g fill="currentColor"><path d="m7.881 6.501 4.834-4.834c.38-.38.38-1.001 0-1.381s-1.001-.38-1.381 0l-4.834 4.834-4.834-4.835c-.38-.38-1.001-.38-1.381 0s-.38 1.001 0 1.381l4.834 4.834-4.834 4.834c-.38.38-.38 1.001 0 1.381s1.001.38 1.381 0l4.834-4.834 4.834 4.834c.38.38 1.001.38 1.381 0s .38-1.001 0-1.381z"></path></g></svg></div></div></div><div class="magic-box-suggestions"></div></div><a class="CoveoSearchButton coveo-accessible-button" role="button" aria-label="Search" tabindex="0"><span class="coveo-search-button"><svg enable-background="new 0 0 20 20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="coveo-search-button-svg"><g fill="currentColor"><path class="coveo-magnifier-circle-svg" d="m8.368 16.736c-4.614 0-8.368-3.754-8.368-8.368s3.754-8.368 8.368-8.368 8.368 3.754 8.368 8.368-3.754 8.368-8.368 8.368m0-14.161c-3.195 0-5.793 2.599-5.793 5.793s2.599 5.793 5.793 5.793 5.793-2.599 5.793-5.793-2.599-5.793-5.793-5.793"></path><path d="m18.713 20c-.329 0-.659-.126-.91-.377l-4.552-4.551c-.503-.503-.503-1.318 0-1.82.503-.503 1.318-.503 1.82 0l4.552 4.551c.503.503.503 1.318 0 1.82-.252.251-.581.377-.91.377"></path></g></svg></span><span class="coveo-search-button-loading"><svg enable-background="new 0 0 18 18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="coveo-search-button-loading-svg"><g fill="currentColor"><path d="m16.76 8.051c-.448 0-.855-.303-.969-.757-.78-3.117-3.573-5.294-6.791-5.294s-6.01 2.177-6.79 5.294c-.134.537-.679.861-1.213.727-.536-.134-.861-.677-.728-1.212 1.004-4.009 4.594-6.809 8.731-6.809 4.138 0 7.728 2.8 8.73 6.809.135.536-.191 1.079-.727 1.213-.081.02-.162.029-.243.029z"></path><path d="m9 18c-4.238 0-7.943-3.007-8.809-7.149-.113-.541.234-1.071.774-1.184.541-.112 1.071.232 1.184.773.674 3.222 3.555 5.56 6.851 5.56s6.178-2.338 6.852-5.56c.113-.539.634-.892 1.184-.773.54.112.887.643.773 1.184-.866 4.142-4.57 7.149-8.809 7.149z"></path></g></svg></span></a></div>
+            <div aria-live="polite" class="coveo-visible-to-screen-reader-only"></div></div>
+        </div>
+    </div>
+    <!-- END GLOBAL SEARCH Box -->
+    <!-- end mobile SEARCH -->
+    <!-- END SEARCH -->
+
+
+
+</div>
+                </div>
+            </header>
+        <!-- END NEW HEADER -->
+        <!-- END NOINDEX -->
+
+
+    </div>
+
+    <!-- BEGIN WRAP -->
+    <div class="full-width-content">
+        
+                <!-- BEGIN NOINDEX -->
+                <!-- start new navi-->
+                    <div class="wrap about-active">
+                        <div class="droopmenu-navbar dmarrow-up droopmenu-horizontal dmpos-top dmfade">
+                            <div class="droopmenu-header">
+                                <a href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October/download-entire-database#" class="droopmenu-toggle"><i class="dm-burg"></i><i class="dm-burg"></i><i class="dm-burg"></i></a>
+                            </div>
+                            <!-- droopmenu-header -->
+                            <div class="droopmenu-nav">
+                                <div class="droopmenu-nav-wrap"><div class="droopmenu-navi"><ul class="droopmenu">
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/About" title="About the IMF" class="" aria-expanded="false">
+About                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+                            <li class="droopmenu-grid-container">
+                                <div class="droopmenu-row">
+                                    <ul class="droopmenu-col droopmenu-col6">
+                                        <li><h4>FACTSHEETS</h4></li>
+                                    </ul>
+
+                                    <ul class="droopmenu-col droopmenu-col6">
+                                        <li><h4>RESOURCES</h4></li>
+                                    </ul>
+                                </div>
+
+                                <div class="droopmenu-row">
+                                    <ul class="droopmenu-col droopmenu-col3">
+                                        <li><a href="https://www.imf.org/en/About/Factsheets/IMF-at-a-Glance" class="">IMF at a Glance</a></li>
+                                        <li><a href="https://www.imf.org/en/About/Factsheets/IMF-Surveillance" class="">Surveillance</a></li>
+                                        <li><a href="https://www.imf.org/en/About/Factsheets/IMF-Lending" class="">Lending</a></li>
+                                    </ul>
+                                    <ul class="droopmenu-col droopmenu-col3">
+                                        <li><a href="https://www.imf.org/en/About/Factsheets/imf-capacity-development" class="">Capacity Development</a></li>
+                                        <li><a href="https://www.imf.org/en/About/Factsheets" class="">IMF Factsheets List</a></li>
+                                    </ul>
+                                    <ul class="droopmenu-col droopmenu-col3">
+                                        <li><a href="https://www.imf.org/external/np/sec/memdir/members.aspx" class="">IMF Members</a></li>
+                                        <li><a href="https://www.imf.org/en/About/Timeline" class="">IMF Timeline</a></li>
+                                        <li><a href="https://www.imf.org/en/About/senior-officials" class="">Senior Officials</a></li>
+                                    </ul>
+                                    <ul class="droopmenu-col droopmenu-col3">
+                                        <li><a href="https://www.imf.org/external/np/adm/rec/recruit.htm" class="">Job Opportunities</a></li>
+                                        <li><a href="https://www.imf.org/external/np/arc/eng/archive.htm" class="">Archives of the IMF</a></li>
+                                    </ul>
+                                </div><!-- droopmenu-row -->
+                            </li>
+                        </ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/Research" title="Research" class="" aria-expanded="false">
+Research                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+        <li class="droopmenu-grid-container">
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><h4>Flagship Publications</h4></li>
+                </ul>
+                
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><h4>Other Publications</h4></li>
+                </ul>
+            </div>
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/publications/weo">World Economic Outlook</a></li>
+                    <li><a href="https://www.imf.org/en/publications/gfsr">Global Financial Stability</a></li>
+                    <li><a href="https://www.imf.org/en/publications/FM">Fiscal Monitor</a></li>
+                    <li><a href="https://www.imf.org/en/Publications/SPROLLs/External-Sector-Reports#sort=@imfdate%20descending">External Sector</a></li>
+                    
+                </ul>
+                
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Publications/SPROLLs/Staff-Discussion-Notes">Staff Discussion Notes</a></li>
+                    <li><a href="https://www.imf.org/en/publications/search?when=After&amp;series=IMF+Working+Papers">Working Papers</a></li>
+                    <li><a href="https://www.imf.org/external/pubs/ft/irb/archive.htm">IMF Research Perspectives</a></li>
+                    <li><a href="http://www.palgrave-journals.com/imfer/index.html">Economic Review</a></li>
+                </ul>
+                
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/external/research/housing/index.htm">Global Housing Watch</a></li>
+                    <li><a href="https://www.imf.org/external/np/res/commod/index.aspx">Commodity Prices</a></li>
+                    <li><a href="https://data.imf.org/?sk=471DDDF8-D8A7-499A-81BA-5B332C01F8B9">Commodities Data Portal</a></li>
+                </ul>
+                
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/external/np/cv/CV.aspx">IMF Researchers</a></li>
+                    <li><a href="https://www.imf.org/external/pubs/ft/staffp/arc/index.asp">Annual Research Conference</a></li>
+                    <li><a href="https://www.imf.org/en/News/Seminars/Conferences/2019/03/25/7th-statistical-forum">Other IMF Events</a></li>
+                    
+                </ul>                                        
+            </div><!-- droopmenu-row -->
+        </li>
+    </ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/Countries" title="Countries" class="" aria-expanded="false">
+Countries                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid country-menu">
+        <li class="droopmenu-grid-container">
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col6">
+                    <li><h4>IMF reports and publications by country</h4></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li></li>
+                </ul>
+                 <ul class="droopmenu-col droopmenu-col3">
+                    <li><h4>Regional Offices</h4></li>
+                </ul>
+                
+            </div>
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col6 country-list">
+                    <li><a href="https://www.imf.org/en/countries#A">A</a></li>
+                    <li><a href="https://www.imf.org/en/countries#B">B</a></li>
+                    <li><a href="https://www.imf.org/en/countries#C">C</a></li>
+                    <li><a href="https://www.imf.org/en/countries#D">D</a></li>
+                    <li><a href="https://www.imf.org/en/countries#E">E</a></li>
+                    <li><a href="https://www.imf.org/en/countries#F">F</a></li>
+                    <li><a href="https://www.imf.org/en/countries#G">G</a></li>
+                    <li><a href="https://www.imf.org/en/countries#H">H</a></li>
+                    <li><a href="https://www.imf.org/en/countries#I">I</a></li>
+                    <li><a href="https://www.imf.org/en/countries#J">J</a></li>
+                    <li><a href="https://www.imf.org/en/countries#K">K</a></li>
+                    <li><a href="https://www.imf.org/en/countries#L">L</a></li>
+                    <li><a href="https://www.imf.org/en/countries#M">M</a></li>
+                    <li><a href="https://www.imf.org/en/countries#N">N</a></li>
+                    <li><a href="https://www.imf.org/en/countries#O">O</a></li>
+                    <li><a href="https://www.imf.org/en/countries#P">P</a></li>
+                    <li><a href="https://www.imf.org/en/countries#Q">Q</a></li>
+                    <li><a href="https://www.imf.org/en/countries#R">R</a></li>
+                    <li><a href="https://www.imf.org/en/countries#S">S</a></li>
+                    <li><a href="https://www.imf.org/en/countries#T">T</a></li>
+                    <li><a href="https://www.imf.org/en/countries#U">U</a></li>
+                    <li><a href="https://www.imf.org/en/countries#V">V</a></li>
+                    <li><a href="https://www.imf.org/en/countries#Y">Y</a></li>
+                    <li><a href="https://www.imf.org/en/countries#Z">Z</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Countries/ResRep">IMF Resident Representative Offices </a></li>
+                    <li><a href="https://www.imf.org/external/pubs/cat/region.asp">IMF Regional Reports</a></li>
+                    <li><a href="https://www.imf.org/en/Countries/Regions/Europe">IMF and Europe</a></li>
+                    <li><a href="https://www.imf.org/external/np/sec/memdir/members.htm">IMF Members' Quotas and Voting Power, and Board of Governors</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/OAP-Home">IMF Regional Office for Asia and the Pacific</a></li>
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/CDOT-Region">IMF Capacity Development Office in Thailand (CDOT)</a></li>
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/CAM-Region">IMF Regional Office in Central America, Panama, and the Dominican Republic</a></li>
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/ECC-Region">Eastern Caribbean Currency Union (ECCU)</a></li>
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/EUR">IMF Europe Office in Paris and Brussels </a></li>
+                    <li><a href="https://www.imf.org/en/Countries/ResRep/PIS-Region">IMF Office in the Pacific Islands</a></li>
+                </ul>
+                
+            </div><!-- droopmenu-row -->
+        </li>
+    </ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/Capacity-Development" title="Capacity Development" class="" aria-expanded="false">
+Capacity Development                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+        <li class="droopmenu-grid-container">
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/external/np/ins/english/capacity_about.htm">About Us</a></li>
+                    <li><a href="https://www.imf.org/en/Capacity-Development/what-we-do">What We Do</a></li>
+                    <li><a href="https://www.imf.org/en/Capacity-Development/how-we-work">How We Work</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/external/np/ins/english/training.htm">IMF Training</a></li>
+                    <li><a href="https://www.imf.org/en/Capacity-Development/Training/ICDTC">Digital Training Catalog</a></li>
+                    <li><a href="https://www.imf.org/external/np/ins/english/learning.htm">Online Learning</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Capacity-Development/Partners">Our Partners</a></li>
+                    <li><a href="https://www.imf.org/en/Capacity-Development/cd-stories">Country Stories</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Publications/SPROLLs/Technical-assistance-country-reports">Technical Assistance Country Reports</a></li>
+                    
+                    <li><a href="https://www.imf.org/en/Capacity-Development/strategy-policies">Strategy and Policies</a></li>
+    
+                </ul>                                        
+            </div><!-- droopmenu-row -->
+        </li>
+    </ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/News" title="IMF News" class="" aria-expanded="false">
+News                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+    <li class="droopmenu-grid-container">
+    <div class="droopmenu-row">
+    <ul class="droopmenu-col droopmenu-col6">
+        <li>
+        <h4>All News</h4>
+        </li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li>
+        <h4>See Also</h4>
+        </li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li>
+        <h4>For Journalists</h4>
+        </li>
+    </ul>
+    </div>
+    <div class="droopmenu-row">
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://www.imf.org/en/live" title="IMF Live" class="nav-img"><img src="./Download entire World Economic Outlook database, October 2020_files/imf-live-rgb-h.png" srcset="https://www.imf.org/-/media/Images/IMF/Live-Page/imf-live-rgb-h-svg.ashx" alt="IMF Live"></a></li>
+        <li><a href="https://www.imf.org/en/News/country-focus">Country Focus</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Communique">Communiqués</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Mission+Concluding+Statement">Mission Concluding Statements</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Press+Release">Press Releases</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Speech">Speeches</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Statements+at+Donor+Meeting">Statements at Donor Meetings</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Transcript">Transcripts</a></li>
+        <li><a href="https://www.imf.org/en/news/searchnews#type=Views+and+Commentaries">Views &amp; Commentaries</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://blog-imfdirect.imf.org/" target="_blank">IMFBlog</a></li>
+        <li><a href="https://www.imf.org/external/np/sec/aiv/index.htm">Article IV Consultations</a></li>
+        <li><a href="https://www.imf.org/external/np/fsap/fssa.aspx">Financial Sector Assessment Program (FSAP)</a></li>
+        <li><a href="https://www.imf.org/external/np/exr/seminars/index.htm">Seminars, Conferences, &amp; Other Events</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3 press-center">
+        <li>
+        <h5>Press Center</h5>
+        <p>The IMF Press Center is a password-protected site for working journalists.</p>
+        </li>
+        <li><a href="http://presscenter.imf.org/" class="btn">Login</a> or <a href="https://presscenter.imf.org/Account/Register" class="btn bk-orange"> Register</a></li>
+        <li><a href="https://www.imf.org/news/for-journalists"><strong>Information of interest</strong></a></li>
+    </ul>
+    </div>
+    <!-- droopmenu-row -->
+    </li>
+</ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+<a href="https://www.imf.org/external/mmedia/index.aspx" class="" aria-expanded="false">Videos<span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+<ul class="droopmenu-megamenu droopmenu-grid">
+    <li class="droopmenu-grid-container">
+    <div class="droopmenu-row">
+    <ul class="droopmenu-col droopmenu-col4">
+        <li><a href="https://www.imf.org/en/live" title="IMF Live" class="nav-img"><img src="./Download entire World Economic Outlook database, October 2020_files/imf-live-rgb-h.png" srcset="https://www.imf.org/-/media/Images/IMF/Live-Page/imf-live-rgb-h-svg.ashx" alt="IMF Live"></a></li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl00$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl00_hdnCategory" value="About the IMF">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl00$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl00_hdnCategoryId" value="1">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=About%20the%20IMF&amp;variableId=1" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl00_lnkCategory" title="About the IMF">About the IMF</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl07$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl07_hdnCategory" value="Conferences">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl07$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl07_hdnCategoryId" value="6">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Conferences&amp;variableId=6" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl07_lnkCategory" title="Conferences">Conferences</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl11$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl11_hdnCategory" value="Press briefings">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl11$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl11_hdnCategoryId" value="11">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Press%20briefings&amp;variableId=11" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl11_lnkCategory" title="Press briefings">Press briefings</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl13$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl13_hdnCategory" value="Speeches">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl13$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl13_hdnCategoryId" value="10">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Speeches&amp;variableId=10" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl13_lnkCategory" title="Speeches">Speeches</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl12$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl12_hdnCategory" value="Special Features">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl12$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl12_hdnCategoryId" value="12">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Special%20Features&amp;variableId=12" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl12_lnkCategory" title="Special Features">Special Features</a>
+        </li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col4">
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl01$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl01_hdnCategory" value="Africa">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl01$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl01_hdnCategoryId" value="2">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Africa&amp;variableId=2" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl01_lnkCategory" title="Africa">Africa</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl02$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl02_hdnCategory" value="Americas">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl02$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl02_hdnCategoryId" value="3">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Americas&amp;variableId=3" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl02_lnkCategory" title="Americas">Americas</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl04$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl04_hdnCategory" value="Asia">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl04$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl04_hdnCategoryId" value="5">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Asia&amp;variableId=5" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl04_lnkCategory" title="Asia">Asia</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl09$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl09_hdnCategory" value="Europe">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl09$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl09_hdnCategoryId" value="8">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Europe&amp;variableId=8" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl09_lnkCategory" title="Europe">Europe</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl10$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl10_hdnCategory" value="Middle East and Central Asia">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl10$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl10_hdnCategoryId" value="9">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Middle%20East%20and%20Central%20Asia&amp;variableId=9" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl10_lnkCategory" title="Middle East and Central Asia">Middle East and Central Asia</a>
+        </li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col4">
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl08$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl08_hdnCategory" value="Economic Outlook">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl08$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl08_hdnCategoryId" value="7">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Economic%20Outlook&amp;variableId=7" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl08_lnkCategory" title="Economic Outlook">Economic Outlook</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl03$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl03_hdnCategory" value="Annual and spring meetings">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl03$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl03_hdnCategoryId" value="4">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Annual%20and%20spring%20meetings&amp;variableId=4" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl03_lnkCategory" title="Annual and spring meetings">Annual and spring meetings</a>
+        </li>
+        <li>
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl06$hdnCategory" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl06_hdnCategory" value="Capacity Development">
+        <input type="hidden" name="ctl00$ContentPlaceHolderMain$dataListCategories$ctl06$hdnCategoryId" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl06_hdnCategoryId" value="22">
+        <a href="https://www.imf.org/external/mmedia/view.aspx?st=Categories&amp;variable=Capacity%20Development&amp;variableId=22" id="ctl00_ContentPlaceHolderMain_dataListCategories_ctl06_lnkCategory" title="Capacity Development">Capacity Development</a>
+        </li>
+        <li><a href="https://www.imf.org/external/mmedia/index.aspx?Sort=MostRecent">Most Recent</a></li>
+        <li><a href="https://www.imf.org/external/mmedia/index.aspx?Sort=MostPopular">Most Popular</a></li>
+    </ul>
+    </div>
+    <!-- droopmenu-row -->
+    </li>
+</ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/Data" title="Data" class="" aria-expanded="false">
+Data                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+        <li class="droopmenu-grid-container">
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col3">
+			         <li><a href="https://www.imf.org/en/data/imf-finances">IMF Finances</a></li>
+                    <li><a href="https://www.imf.org/external/np/ds/matrix.htm">Additional Data Sources</a></li>
+                    <li><a href="https://www.imf.org/external/ns/cs.aspx?id=28">World Economic Outlook Databases</a></li>
+              
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/en/Publications/SPROLLS/world-economic-outlook-databases#sort=@imfdate%20descending" target="_blank">Database</a></li>
+                    <li><a href="http://data.imf.org/" target="_blank">IMF eLibrary-Data</a></li>
+                    <li><a href="http://data.imf.org/IFS" target="_blank">International Financial Statistics</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="http://www.principalglobalindicators.org/" target="_blank">Principal Global Indicators</a></li>
+                    <!--<li><a href="http://www.worldbank.org/qpsd" target="_blank">Public Sector Debt Statistics Online Centralized Database</a></li> -->
+                    <li><a href="http://data.imf.org/COFER" target="_blank">Currency Composition of Official Foreign Exchange Reserves</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="http://data.imf.org/FAS" target="_blank">Financial Access Survey</a></li>
+                </ul>                                        
+            </div><!-- droopmenu-row -->
+        </li>
+    </ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+                                                    <a href="https://www.imf.org/en/Publications" title="Publications" class="" aria-expanded="false">
+Publications                                                    <span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+
+<ul class="droopmenu-megamenu droopmenu-grid">
+    <li class="droopmenu-grid-container">
+    <div class="droopmenu-row">
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="http://www.elibrary.imf.org/">IMF eLibrary</a></li>
+        <li><a href="https://www.imfbookstore.org/">IMF Bookstore</a></li>
+        <li><a href="https://www.imf.org/en/publications/areb">IMF Annual Report</a></li>
+        <li><a href="https://www.imf.org/external/pubs/ft/fandd/index.htm">Finance &amp; Development</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://www.imf.org/en/publications/weo">World Economic Outlook</a></li>
+        <li><a href="https://www.imf.org/en/publications/gfsr">Global Financial Stability Report</a></li>
+        <li><a href="https://www.imf.org/en/publications/fm">Fiscal Monitor</a></li>
+        <li><a href="https://www.imf.org/en/Publications/SPROLLs/External-Sector-Reports">External Sector Report</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://www.imf.org/en/publications/reo">Regional Economic Reports</a></li>
+        <li><a href="https://www.imf.org/en/publications/search?when=After&amp;series=Policy+Papers">Policy Papers</a></li>
+        <li><a href="https://www.imf.org/en/Publications/SPROLLs/Staff-Discussion-Notes">Staff Discussion Notes</a></li>
+        <li><a href="https://www.imf.org/en/Publications/SPROLLs/IMF-Departmental-Papers">Departmental Papers</a></li>
+    </ul>
+    <ul class="droopmenu-col droopmenu-col3">
+        <li><a href="https://www.imf.org/en/Publications/imf-notes">All Notes Series</a></li>
+        <li><a href="https://www.imf.org/en/Publications/SPROLLs/Spillover-Notes">Spillover Notes</a></li>
+        <li><a href="https://www.imf.org/en/Publications/SPROLLs/How-To-Notes">How-To Notes</a></li>
+        <li><a href="https://www.imf.org/en/publications/search">Advanced search</a></li>
+    </ul>
+    </div>
+    <!-- droopmenu-row -->
+    </li>
+</ul>                                        </li>
+                                        <li class="droopmenu-parent droopmenu-mega" aria-haspopup="true">
+<a href="https://www.imf.org/external/social.htm" class="" aria-expanded="false">Social<span class="droopmenu-indicator"><em></em></span><em class="droopmenu-topanim"></em></a><div class="dm-arrow"></div>
+<ul class="droopmenu-megamenu droopmenu-grid">
+        <li class="droopmenu-grid-container">
+            <div class="droopmenu-row">
+                <ul class="droopmenu-col droopmenu-col3">
+                      
+                      <li><a href="http://www.twitter.com/imfnews" target="_blank" class="fab fa-twitter">IMF Twitter</a></li>
+                      <li><a href="https://www.facebook.com/International-Monetary-Fund-152292984850728/" target="_blank" class="fab fa-facebook-f">IMF Facebook</a></li>
+                    <li><a href="http://www.linkedin.com/company/international-monetary-fund" target="_blank" class="fab fa-linkedin-in">IMF LinkedIn</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.instagram.com/the_imf/" target="_blank" class="fab fa-instagram" title="IMF Instagram">IMF Instagram</a></li>
+                    <li><a href="http://www.youtube.com/imf" target="_blank" class="fab fa-youtube">IMF YouTube</a></li>
+                    
+                    <li><a href="https://www.imf.org/en/News/Podcasts" class="far fa-podcast">IMF Podcast</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="http://www.flickr.com/imfphoto" target="_blank" class="fab fa-flickr">IMF Flickr</a></li>
+                    <li><a href="https://www.imf.org/external/rss/rsslist/rsslist.aspx" class="far fa-rss">IMF RSS</a></li>
+                    <li><a href="https://www.imf.org/external/cntpst/index.aspx" class="fas fa-envelope-open-text">IMF Email Notification</a></li>
+                </ul>
+                <ul class="droopmenu-col droopmenu-col3">
+                    <li><a href="https://www.imf.org/external/social.htm" target="_blank" class="fal fa-thumbs-up">IMF Social Media Hub</a></li>
+                    <li><a href="http://www.imf.org/app" target="_blank" class="fab fa-apple">IMF App for iOS</a></li>
+                    <li><a href="http://www.imf.org/gapp" target="_blank" class="fab fa-android">IMF App for Android</a></li>
+                </ul>                                        
+            </div><!-- droopmenu-row -->
+        </li>
+    </ul>                                        </li>
+
+                                </ul></div></div>
+                            </div><!-- droopmenu-inner -->
+                        </div><!-- droopmenu-navbar  -->
+                    </div>
+                <!-- END NOINDEX -->
+      <!-- END NAVIGATION -->
+
+
+
+        
+        <div class="hero" role="banner">
+            
+
+            <div class="full-img-wrapper title-only">
+                <div class="fixed-background hero-background">
+                    <img src="./Download entire World Economic Outlook database, October 2020_files/WEO-DB-Hero.jpg" alt="">
+                    <div class="over-hero">
+                            <h5>World Economic and Financial Surveys</h5>
+                        
+                    
+                            
+                        <h2>
+                            World Economic Outlook Database
+                        </h2>
+                        <p class="disclaimer">
+                            
+                                <a href="https://www.imf.org/external/pubs/ft/weo/disclaim.htm">Disclaimer<i class="fal fa-chevron-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
+
+<div class="full-width text-center contain-70 padded-vertical-40">
+
+    <div class="flex-buttons-container">
+
+        <a href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October" class="btn padded-10 orange flex-right">New Query  <i class="fal fa-sync"></i></a>
+    </div>
+</div>
+<div class="full-width text-center padded-vertical-40 bg-lightest-grey">
+    <div class="contain">
+            <h4>Download entire World Economic Outlook database: October 2020</h4>
+    </div>
+            <div class="contain">
+                    <h5>Tab Delimited Values:</h5>
+            </div>
+            <div class="flex-container contain-50 padded-vertical-20">
+                    <div class="card-50 text-center">
+
+                            <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020all.ashx">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/map-marker-plus-light.svg" class="small-logo" alt="">
+                            </a>
+
+                        <div class="belt-caption">
+                           
+                            <h5>
+                                    <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020all.ashx">By Countries</a>
+                            
+                            </h5>
+                                <p>
+                                <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020all.ashx">Size: 18 MB</a>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="card-50 text-center">
+
+                            <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020alla.ashx">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/object-group-light.svg" class="small-logo" alt="">
+                            </a>
+
+                        <div class="belt-caption">
+                           
+                            <h5>
+                                    <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020alla.ashx">By Country Groups</a>
+                            
+                            </h5>
+                                <p>
+                                <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/WEOOct2020alla.ashx">Size: 1013 KB</a>
+                                </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="contain">
+                    <h5>SDMX:</h5>
+            </div>
+            <div class="flex-container contain-50 padded-vertical-20">
+                    <div class="card-50 text-center">
+
+                            <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdata.ashx">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/database-light.svg" class="small-logo" alt="">
+                            </a>
+
+                        <div class="belt-caption">
+                           
+                            <h5>
+                                    <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdata.ashx">SDMX Data</a>
+                            
+                            </h5>
+                                <p>
+                                <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdata.ashx">Size: 3 MB</a>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="card-50 text-center">
+
+                            <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdsd.ashx">
+                                <img src="./Download entire World Economic Outlook database, October 2020_files/bullseye-pointer-light.svg" class="small-logo" alt="">
+                            </a>
+
+                        <div class="belt-caption">
+                           
+                            <h5>
+                                    <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdsd.ashx">SDMX Data Structure Definition</a>
+                            
+                            </h5>
+                                <p>
+                                <a href="https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2020/02/weooct2020-sdmxdsd.ashx">Size: 66 KB</a>
+                                </p>
+                        </div>
+                    </div>
+            </div>
+       
+    
+</div>
+<div class="full-width text-center contain-70 padded-vertical-40">
+
+    <div class="flex-buttons-container">
+        <a href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October" class="btn padded-10 orange flex-right" "="">New Query  <i class="fal fa-sync"></i></a>
+    </div>
+</div>
+<div class="full-width bg-blue text-center padded-vertical-10">
+    <div class="contain ko-text text-icon">
+                <h3 class="fal fa-comments at-end">
+                    <a href="https://www.imf.org/external/pubs/ft/weo/forum/index.htm" title="Have a WEO Data Question? Submit it through the WEO Question Form.">
+                        Have a WEO Data Question? Submit it through the WEO Question Form.
+                    </a>
+                </h3>
+
+    </div>
+</div>
+<!-- BEGIN CONTENT -->
+<article>
+    <div class="full-width padded-vertical-20 text-w-sidebars">
+        <div class="sticky-box">
+
+        </div>
+        <div class="article-text">
+
+                <div>
+
+
+                     <p>The entire World Economic Outlook database is available for download in Tab Delimited Values format and SDMX format. All available data that can be released to the public are incorporated into both formats.</p>
+<h6>Contents of the downloads</h6>
+<p>The Tab Delimited Values downloads below consist of two files. The "By Countries" file contains series data for all countries, and the "By Country Groups" file contains series data for all country groups (aggregated data). As many series are either not available or not applicable, there will be empty cells in the dataset. These files are compatible with most commercial statistical packages and Microsoft Excel.</p>
+<p>The SDMX downloads below consist of two files. The “SDMX Data” file contains a data file with series for all countries and country groups and the associated schema file. The “SDMX Data Structure Definition” file contains the associated data structure definition.</p>
+<h6>Database version</h6>
+<p>By default, results are returned from the most recent WEO report dataset. Occasionally some countries' data are adjusted, typically when index years or currencies change.</p>
+                </div>
+
+        </div>
+        <div class="sticky-box">
+
+            <div class="sticky-box">
+                <h4>Related Links</h4>
+                    <ul class="black-text-list">
+                                        <li>                                           
+                                            <a href="https://www.imf.org/en/Publications/WEO/Issues/2020/09/30/world-economic-outlook-october-2020" title="World Economic Outlook: Text October 2020">
+                                                World Economic Outlook: Text October 2020
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/data/changes.htm" title="Changes to the Database">
+                                                Changes to the Database
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/data/assump.htm" title="Assumptions and Data Conventions">
+                                                Assumptions and Data Conventions
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/2020/02/weodata/co.pdf" title="Country Information">
+                                                Country Information
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/2020/02/weodata/groups.htm" title="Groups and Aggregates">
+                                                Groups and Aggregates
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/data/WEOhistorical.xlsx" title="Historical WEO Forecasts Database">
+                                                Historical WEO Forecasts Database
+                                            </a>
+                                        </li>
+                                        <li>                                           
+                                            <a href="https://www.imf.org/external/pubs/ft/weo/faq.htm" title="Frequently Asked Questions: WEO">
+                                                Frequently Asked Questions: WEO
+                                            </a>
+                                        </li>
+                    </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+</article>
+<!-- END CONTENT -->
+
+    </div>
+    <!-- END WRAP -->
+    
+
+
+<input id="pageLastUpdatedOn" name="pageLastUpdatedOn" type="hidden" value="10/12/2020 3:40:36 PM">            <script type="text/javascript">
+                function refreshAtInterval(hours, minutes, seconds, mm,dd,yyyy) {
+                    var now = new Date();
+                    var then = new Date();
+                    var dayUTC = new Date();
+
+                    if (dayUTC.getUTCFullYear() == yyyy && dayUTC.getUTCMonth()==(mm-1) && dayUTC.getUTCDate() == dd)
+                    {
+                        if(now.getUTCHours() > hours ||
+                            (now.getUTCHours() == hours && now.getUTCMinutes() > minutes) ||
+                            now.getUTCHours() == hours && now.getUTCMinutes() == minutes &&
+                            now.getUTCSeconds() >= seconds) {
+                            then.setUTCDate(now.getUTCDate() + 1);
+                        }
+
+                        then.setUTCHours(hours);
+                        then.setUTCMinutes(minutes);
+                        then.setUTCSeconds(seconds);
+
+
+                        var timeout = (then.getTime() - now.getTime());
+
+                        setTimeout(function() { window.location.reload(true); }, timeout);
+                    }
+                }
+            </script>
+                <script type="text/javascript">
+                    refreshAtInterval(0,0,0,1,1,1);
+                </script>
+                <script type="text/javascript">
+                    refreshAtInterval(0,0,0,1,1,1);
+                </script>
+                <script type="text/javascript">
+                    refreshAtInterval(0,0,0,1,1,1);
+                </script>
+                <script type="text/javascript">
+                    refreshAtInterval(0,0,0,1,1,1);
+                </script>
+                <script type="text/javascript">
+                    refreshAtInterval(0,0,0,1,1,1);
+                </script>
+
+    
+
+    <div id="full-width-footer">
+<!-- BEGIN NOINDEX -->
+<!-- BEGIN FOOTER -->
+
+    <footer role="contentInfo" aria-label="site footer" class="page-footer">
+        <div class="flex-container contain-indent padded-vertical-40">
+             
+             <div class="cell align-self-top flex-quarter">
+          <a href="https://www.imf.org/external/index.htm"><img src="./Download entire World Economic Outlook database, October 2020_files/IMF_seal.png" srcset="/assets/imf/images/footer/IMF_seal.svg" alt="International Monetary Fund" class="foot-logo"></a>
+      </div>
+ 
+    
+      
+   <div class="flex-three-quarter footer-links text-right">
+      <ul>
+        <li><a href="https://www.imf.org/en/About">About</a></li>
+        <li><a href="https://www.imf.org/en/Research">Research</a></li>
+        <li><a href="https://www.imf.org/en/Countries">Countries</a></li>
+        <li><a href="https://www.imf.org/en/Capacity-Development">Capacity Development</a></li>
+        <li><a href="https://www.imf.org/en/News">News</a></li>
+        <li><a href="https://www.imf.org/external/np/exr/seminars/index.htm">Events</a></li>
+      </ul>
+   
+      <ul>
+        <li><a href="https://www.imf.org/external/mmedia/index.aspx">Videos</a></li>
+        <li><a href="https://www.imf.org/en/Data">Data</a></li>
+        <li><a href="https://www.imf.org/en/Publications">Publications</a></li>
+        <li><a href="https://www.imf.org/external/social.htm">Social Media Hub</a></li>
+        <li><a href="https://www.imf.org/external/pubs/ft/ar/2018/eng/index.htm">Annual Report</a></li>
+          <li><a href="https://www.imf.org/external/terms.htm">Copyright and Usage</a></li>
+      </ul>
+    
+      <ul>
+        <li><a href="https://www.imf.org/external/privacy.htm">Privacy Policy</a></li>
+        <li><a href="https://www.imf.org/external/np/exr/contacts/contacts.aspx">Contact Us</a></li>
+        <li><a href="https://www.imf.org/external/np/adm/rec/recruit.htm">Careers</a></li>
+        <li><a href="https://www.imf.org/external/np/exr/glossary/index.asp">Glossary</a></li>
+        <li><a href="https://www.imf.org/external/scams.htm" title="Scam Alert">Scam Alert</a></li>
+      </ul>
+    
+      <ul class="navlanguage">
+        <li lang="ar" xml:lang="ar"><a href="https://www.imf.org/external/arabic/index.htm" title="Arabic">عربي</a></li>
+        <li lang="ch" xml:lang="ch"><a href="https://www.imf.org/external/chinese/index.htm" title="Chinese">中文</a></li>
+        <li lang="fr" xml:lang="fr"><a href="https://www.imf.org/external/french/index.htm" title="French">Français</a></li>
+        <li lang="ja" xml:lang="ja"><a href="https://www.imf.org/external/japanese/index.htm" title="Japanese">日本語</a></li>
+        <li lang="ru" xml:lang="ru"><a href="https://www.imf.org/external/russian/index.htm" title="Russian">Русский</a></li>
+        <li lang="es" xml:lang="es"><a href="https://www.imf.org/external/spanish/index.htm" title="Spanish" class="last">Español</a></li>
+      </ul>
+             </div>  
+      
+
+                 
+             </div>
+      <div class="flex-container contain-indent padded-vertical-20">
+                 
+                 <div class="cell flex-half text-left">
+                     <p class="small-grey-text all-caps">© 2020 International Monetary Fund. All rights reserved.</p>
+                 </div>
+                 
+                 
+             <div class="cell flex-half align-right text-right">
+        <ul class="social-hz">
+            <li><a href="http://www.twitter.com/imfnews" target="_blank" class="fab fa-twitter" title="Follow IMF Twitter"></a></li>
+            <li><a href="https://www.facebook.com/International-Monetary-Fund-152292984850728/" class="fab fa-facebook-f" target="_blank" title="Follow IMF Facebook"></a></li>
+            <li><a href="http://www.linkedin.com/company/international-monetary-fund" class="fab fa-linkedin-in" target="_blank" title="Follow IMF LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/the_imf/" class="fab fa-instagram" target="_blank" title="Follow IMF Instagram"></a></li>
+            <li><a href="http://www.youtube.com/imf" class="fab fa-youtube" target="_blank" title="Follow IMF Youtube"></a></li>
+            <li><a href="https://www.imf.org/external/pubs/ft/survey/so/podcast.aspx" class="far fa-podcast" title="IMF Podcasts"></a></li>
+            <li><a href="http://www.flickr.com/imfphoto" class="fab fa-flickr" target="_blank" title="Follow IMF Flickr"></a></li>
+            <li><a href="https://www.imf.org/external/cntpst/index.aspx" class="fas fa-envelope-open-text" title="Subscribe to IMF Emails"></a></li>
+<li><a href="https://www.imf.org/en/live" title="IMF Live" class="nav-img"><img src="./Download entire World Economic Outlook database, October 2020_files/imf-live-rgb-h.png" srcset="https://www.imf.org/-/media/Images/IMF/Live-Page/imf-live-rgb-h-svg.ashx" alt="IMF Live"></a></li>
+        </ul>
+      </div>
+ </div>
+    </footer>
+
+<!-- END FOOTER -->
+<!-- END NOINDEX -->
+
+    </div>
+
+<!-- The JavaScript -->
+<script src="./Download entire World Economic Outlook database, October 2020_files/jquery.min.js"></script>
+<script>
+    var jQuery = jQuery.noConflict();
+    var jQuery1_11 = jQuery.noConflict();
+</script>
+
+<!-- Begin - Feather Lightbox -->
+<!-- featherlight.min.js was modified to include .ashx extension. This should be done during upgrades. -->
+
+
+<script src="./Download entire World Economic Outlook database, October 2020_files/common-js"></script>
+
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('.gallery').featherlightGallery({
+            gallery: {
+                fadeIn: 300,
+                fadeOut: 300
+            },
+            openSpeed: 300,
+            closeSpeed: 300
+        });
+        jQuery('.gallery2').featherlightGallery({
+            gallery: {
+                next: 'next »',
+                previous: '« previous'
+            },
+            variant: 'featherlight-gallery2'
+        });
+    });
+</script>
+<!-- End - Lightbox -->
+<!-- Updation done : Added the below scripts for slideshow to work -->
+<!-- SlideShow -->
+<!-- FlexSlider -->
+
+<script type="text/javascript">
+    jQuery(window).load(function () {
+        jQuery('.flexslider').flexslider({
+            animation: "slide",
+            start: function (slider) {
+                jQuery('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+
+<!-- Start - Updated For ForeSee-->
+<!-- Only show direct CM link or CDs -->
+    <script type="text/javascript">
+        // ForeSee Staging Embed Script v2.00
+        // DO NOT MODIFY BELOW THIS LINE *****************************************
+        ;
+        (function (g) {
+            var d = document,
+                am = d.createElement('script'),
+                h = d.head || d.getElementsByTagName("head")[0],
+                fsr = 'fsReady',
+                aex = {
+                    //read from configs
+                    "src": "//gateway.foresee.com/sites/imf-org/production/gateway.min.js",
+                    "type": "text/javascript",
+                    "async": "true",
+                    "data-vendor": "fs",
+                    "data-role": "gateway"
+                };
+            for (var attr in aex) {
+                am.setAttribute(attr, aex[attr]);
+            }
+            h.appendChild(am);
+            g[fsr] = function () {
+                var aT = '__' + fsr + '_stk__';
+                g[aT] = g[aT] || [];
+                g[aT].push(arguments);
+            };
+        })(window);
+        // DO NOT MODIFY ABOVE THIS LINE *****************************************
+    </script>
+<!-- End - Updated  For ForeSee-->
+<!-- Optional FlexSlider Additions -->
+
+<!--End of Updation done by Seema Shivdas -->
+
+
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5092873046369c2f" async="async"></script>-->
+<script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe id="_atssh38" title="AddThis utility frame" src="./Download entire World Economic Outlook database, October 2020_files/sh.f48a1a04fe8dbf021b4cda1d.html" style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;"></iframe></div><style id="service-icons-0"></style>
+<!-- Accordion -->
+
+<script src="./Download entire World Economic Outlook database, October 2020_files/jquery-ui.js"></script>
+
+
+
+
+
+
+
+        <!-- Begin 2017 Omniture Scripts -->
+<script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/SocialScript.js"></script><script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/CommonScript.js"></script><script type="text/javascript">_satellite.pageBottom();</script><script src="./Download entire World Economic Outlook database, October 2020_files/satellite-58405dea64746d1bdc005976.js"></script>        <!-- End 2017 Omniture Scripts -->
+
+<!-- Begin 2017 Omniture Scripts -->
+
+<!-- End 2017 Omniture Scripts -->
+<!--VIDEOS JS-->
+
+
+<!-- BEGIN - Experience Editor and CD-Specific Scripts -->
+<script src="./Download entire World Economic Outlook database, October 2020_files/cdscripts-js"></script>
+            <script src="./Download entire World Economic Outlook database, October 2020_files/piwik.js"></script>
+
+
+
+<script src="./Download entire World Economic Outlook database, October 2020_files/WeoDatabase-js"></script>
+    <!-- Droopmenu js -->
+
+    
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $('.droopmenu-navbar').droopmenu({
+                dmArrow: true,
+                dmArrowDirection: 'dmarrowup'
+            });
+        });
+    </script>
+    <script type="text/javascript">
+
+    var $jq = jQuery.noConflict();
+    jQuery(document).ready(function () {
+
+        $jq(".fa-search").click(function () {
+            $jq(".search-box").toggle();
+            $jq("input[type='text'].search").focus();
+        });
+
+    });
+    </script>
+
+
+    
+    
+
+
+<script type="text/javascript" src="./Download entire World Economic Outlook database, October 2020_files/TwitterQuote.js"></script>
+    
+
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery('#issueDisclaimer:not(.pageeditor)').each(function () {
+                    if (jQuery(this).html().trim() == '') {
+                        jQuery(this).hide();
+                    }
+                });
+
+                jQuery(window).scroll(function () {
+                    if (jQuery(this).scrollTop() > 100) {
+                        jQuery('#scroll').fadeIn();
+                    } else {
+                        jQuery('#scroll').fadeOut();
+                    }
+                });
+
+                jQuery('#scroll').click(function () {
+                    jQuery("html, body").animate({ scrollTop: 0 }, 600);
+                    return false;
+                });
+
+            });
+
+        </script>
+
+<input id="MediaFramework_ItemId" name="MediaFramework_ItemId" type="hidden" value="F575C12ED0F34D2DADB0063260345099">
+
+</body></html>

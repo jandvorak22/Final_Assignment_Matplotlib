@@ -1,0 +1,3 @@
+_satellite.pushBlockingScript(function(event, target, $variables){
+  function makeTwoDigits (n){ return (typeof n === 'number') ? ('0' + n).slice(-2) : null; }  function getFourDigitsTime (dt){	 return (dt && typeof dt.getHours === 'function') ? makeTwoDigits(dt.getHours()) + makeTwoDigits(dt.getMinutes()) : null; }  function getlocalTimeZone (dt){ var localTimeZone = (dt && typeof dt.getTimezoneOffset === 'function') ? -dt.getTimezoneOffset()/60 : null; return localTimeZone; }  var localTime = new Date();  var localTimeZone = getlocalTimeZone(localTime);   var evar34 = getFourDigitsTime(localTime) + "|" + localTimeZone;
+});
